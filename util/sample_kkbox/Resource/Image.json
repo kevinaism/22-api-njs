@@ -1,0 +1,47 @@
+{
+  "ImageType": [
+    "FrontCoverImage"
+  ],
+  "ImageId": [
+    {
+      "ProprietaryId": [
+        {
+          "_": "{{RAND}}",
+          "$": {
+            "Namespace": "22"
+          }
+        }
+      ]
+    }
+  ],
+  "ResourceReference": [
+    "A2"
+  ],
+  "ImageDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "Worldwide"
+      ],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "TechnicalImageDetails": [
+        {
+          "TechnicalResourceDetailsReference": [
+            "T2"
+          ],
+          "File": [
+            {
+              "FileName": [
+                "{{BATCH_ID}}.jpg"
+              ],
+              "FilePath": [
+                "resources/"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

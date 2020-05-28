@@ -1,0 +1,16 @@
+{
+  "SequenceNumber": [
+    "1"
+  ],
+  "ResourceType": [
+    "SoundRecording"
+  ],
+  "ReleaseResourceReference": [
+    {
+      "_": "A1",
+      "$": {
+        "ReleaseResourceType": "PrimaryResource"
+      }
+    }
+  ]
+}

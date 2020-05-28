@@ -1,0 +1,79 @@
+{
+  "ImageType": [
+    "FrontCoverImage"
+  ],
+  "ImageId": [
+    {
+      "ProprietaryId": [
+        {
+          "_": "{{RAND}}",
+          "$": {
+            "Namespace": "22"
+          }
+        }
+      ]
+    }
+  ],
+  "ResourceReference": [
+    "A2"
+  ],
+  "ImageDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "Worldwide"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "ResourceContributor": [],
+      "CLine": [
+        {
+          "Year": [
+            "2019"
+          ],
+          "CLineCompany": [
+            "(P) 2019 twentytwomusic.com"
+          ],
+          "CLineText": [
+            "(C) 2019 twentytwomusic.com"
+          ]
+        }
+      ],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "TechnicalImageDetails": [
+        {
+          "TechnicalResourceDetailsReference": [
+            "T2"
+          ],
+          "File": [
+            {
+              "FileName": [
+                "{{BATCH_ID}}.jpg"
+              ],
+              "FilePath": [
+                "resources/"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

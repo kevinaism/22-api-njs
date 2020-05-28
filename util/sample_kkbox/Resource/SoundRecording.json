@@ -1,0 +1,102 @@
+{
+  "SoundRecordingType": [
+    "MusicalWorkSoundRecording"
+  ],
+  "SoundRecordingId": [
+    {
+      "ISRC": [
+        {
+          "_":"{{ISRC}}",
+          "$": {
+            
+          }
+        }
+      ]
+    }
+  ],
+  "ResourceReference": [
+    "A1"
+  ],
+  "ReferenceTitle": [
+    {
+      "TitleText": [
+        "{{NAME}}"
+      ]
+    }
+  ],
+  "Duration": [
+    "{{DURATION}}"
+  ],
+  "SoundRecordingDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "HK",
+        "TW"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "DisplayArtist": [],
+      "LabelName": [
+        "Twenty Two Limited"
+      ],
+      "ResourceContributor": [],
+      "IndirectResourceContributor": [],
+      "ResourceReleaseDate": [
+        "2019"
+      ],
+      "PLine": [
+        {
+          "Year": [
+            "2019"
+          ],
+          "PLineText": [
+            "(P) 2019 twentytwomusic.com"
+          ]
+        }
+      ],
+      "Genre": [
+        {
+          "GenreText": [
+            "Instrumental"
+          ]
+        }
+      ],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "TechnicalSoundRecordingDetails": [
+        {
+          "TechnicalResourceDetailsReference": [
+            "T1"
+          ],
+          "File": [
+            {
+              "FileName": [
+                "{{BATCH_ID}}_0.wav"
+              ],
+              "FilePath": [
+                "resources/"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

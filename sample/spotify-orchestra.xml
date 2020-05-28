@@ -1,0 +1,1522 @@
+<ernm:NewReleaseMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:ernm="http://ddex.net/xml/ern/37" 
+    xmlns:avs="http://ddex.net/xml/avs/avs" MessageSchemaVersionId="ern/37" LanguageAndScriptCode="en" ReleaseProfileVersionId="CommonReleaseTypes/12/AudioAlbum" xsi:schemaLocation="http://ddex.net/xml/ern/37 http://ddex.net/xml/ern/37/release-notification.xsd">
+    <MessageHeader>
+        <MessageThreadId>e5cd940b-08f9-4b2b-9fda-6b13fb441f3b</MessageThreadId>
+        <MessageId>UM246672942</MessageId>
+        <MessageSender>
+            <PartyId>PADPIDA2013042401U</PartyId>
+            <PartyName>
+                <FullName>Universal Music Group</FullName>
+            </PartyName>
+        </MessageSender>
+        <MessageRecipient>
+            <PartyId>PADPIDA2011072101T</PartyId>
+            <PartyName>
+                <FullName>Spotify</FullName>
+            </PartyName>
+        </MessageRecipient>
+        <MessageCreatedDateTime>2019-10-28T16:50:41+01:00</MessageCreatedDateTime>
+    </MessageHeader>
+    <ResourceList>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>DEN961803010</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A1</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>21. Sweet Dreams</TitleText>
+            </ReferenceTitle>
+            <Duration>PT2M39S</Duration>
+            <CreationDate LocationDescription="National Centre for the Performing Arts, Beijing" TerritoryCode="CN">2018-07-19</CreationDate>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>21. Sweet Dreams</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Tchaikovsky: Children's Album, Op. 39, TH 141 - 21. Sweet Dreams
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Children's Album, Op. 39, TH 141</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>子供のアルバム 作品39 TH141: 第21曲: 甘い夢</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>子供のアルバム 作品39 TH141</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>
+차이콥스키: 어린이를 위한 앨범, Op.39, TH 141: 21. 달콤한 꿈(Sweet Dreams)
+                    </TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>차이콥스키: 어린이를 위한 앨범, Op.39, TH 141</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>コドモノアルバムサクヒンサンジュウキュウ: ダイニジュウイチキョクアマイユメ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>コドモノアルバムサクヒンサンジュウキュウ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Christopher Alder</FullName>
+                        <NamesBeforeKeyName>Christopher</NamesBeforeKeyName>
+                        <KeyName>Alder</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>Producer</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Philip Krause</FullName>
+                        <NamesBeforeKeyName>Philip</NamesBeforeKeyName>
+                        <KeyName>Krause</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Recording Engineer">UserDefined</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Mastering Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Peifeng Ma</FullName>
+                        <NamesBeforeKeyName>Peifeng</NamesBeforeKeyName>
+                        <KeyName>Ma</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Xinyi Zhou</FullName>
+                        <NamesBeforeKeyName>Xinyi</NamesBeforeKeyName>
+                        <KeyName>Zhou</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Peter Ilyich Tchaikovsky</FullName>
+                        <NamesBeforeKeyName>Peter Ilyich</NamesBeforeKeyName>
+                        <KeyName>Tchaikovsky</KeyName>
+                        <AbbreviatedName>Tchaikovsky</AbbreviatedName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T7</TechnicalResourceDetailsReference>
+                    <AudioCodecType>FLAC</AudioCodecType>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="kHz">44.1</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT0H2M39.12S</Duration>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>00028948190058_T7_audtrk.flac</FileName>
+                        <FilePath>resources/</FilePath>
+                        <HashSum>
+                            <HashSum>e29322250aab1132bb69954565bb1a20</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>DEN961803030</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A2</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>1. Andantino "Ivan Sings"</TitleText>
+            </ReferenceTitle>
+            <Duration>PT1M35S</Duration>
+            <CreationDate LocationDescription="National Centre for the Performing Arts, Beijing" TerritoryCode="CN">2018-07-19</CreationDate>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>1. Andantino "Ivan Sings"</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Khachaturian: Children's Album for Piano, Book I - 1. Andantino "Ivan Sings"
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Children's Album for Piano, Book I</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>こどものアルバム第1巻: 第1曲: 小さな歌（アンダンティーノ）</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>こどものアルバム第1巻</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>
+하차투리안: 어린이를 위한 피아노 곡집 1권: 1. Andantino "Ivan Sings"
+                    </TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>하차투리안: 어린이를 위한 피아노 곡집 1권</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>コドモノアルバムダイイチカン: ダイイチキョクチイサナウタアンダンティーノ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>コドモノアルバムダイイチカン</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Christopher Alder</FullName>
+                        <NamesBeforeKeyName>Christopher</NamesBeforeKeyName>
+                        <KeyName>Alder</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>Producer</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Philip Krause</FullName>
+                        <NamesBeforeKeyName>Philip</NamesBeforeKeyName>
+                        <KeyName>Krause</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Recording Engineer">UserDefined</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Mastering Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Peifeng Ma</FullName>
+                        <NamesBeforeKeyName>Peifeng</NamesBeforeKeyName>
+                        <KeyName>Ma</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Xinyi Zhou</FullName>
+                        <NamesBeforeKeyName>Xinyi</NamesBeforeKeyName>
+                        <KeyName>Zhou</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Aram Khachaturian</FullName>
+                        <NamesBeforeKeyName>Aram</NamesBeforeKeyName>
+                        <KeyName>Khachaturian</KeyName>
+                        <AbbreviatedName>Khachaturian</AbbreviatedName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T6</TechnicalResourceDetailsReference>
+                    <AudioCodecType>FLAC</AudioCodecType>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="kHz">44.1</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT0H1M35.8S</Duration>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>00028948190058_T6_audtrk.flac</FileName>
+                        <FilePath>resources/</FilePath>
+                        <HashSum>
+                            <HashSum>21a11ad1a23fd9bcbf427f0ff5ffd6f1</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>DEN961802170</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A3</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>
+Minuet No. 2 in G Minor (Formerly Attrib. J.S. Bach as BWV Anh. 115)
+                </TitleText>
+            </ReferenceTitle>
+            <Duration>PT1M56S</Duration>
+            <CreationDate LocationDescription="National Centre for the Performing Arts, Beijing" TerritoryCode="CN">2018-07-19</CreationDate>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>
+Minuet No. 2 in G Minor (Formerly Attrib. J.S. Bach as BWV Anh. 115)
+                    </TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Petzold: Minuet No. 2 in G Minor (Formerly Attrib. J.S. Bach as BWV Anh. 115)
+                    </TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>メヌエット 第2番 ト短調　[アンナ・マグダレーナ・バッハの音楽帳 BWV Anh. 115]</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>メヌエットダイニバントタンチョウアンナマグダレーナバッハノオンガクチョウ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Christopher Alder</FullName>
+                        <NamesBeforeKeyName>Christopher</NamesBeforeKeyName>
+                        <KeyName>Alder</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>Producer</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Philip Krause</FullName>
+                        <NamesBeforeKeyName>Philip</NamesBeforeKeyName>
+                        <KeyName>Krause</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Recording Engineer">UserDefined</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Mastering Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Peifeng Ma</FullName>
+                        <NamesBeforeKeyName>Peifeng</NamesBeforeKeyName>
+                        <KeyName>Ma</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Xinyi Zhou</FullName>
+                        <NamesBeforeKeyName>Xinyi</NamesBeforeKeyName>
+                        <KeyName>Zhou</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Christian Petzold</FullName>
+                        <NamesBeforeKeyName>Christian</NamesBeforeKeyName>
+                        <KeyName>Petzold</KeyName>
+                        <AbbreviatedName>Petzold</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>クリスティアン・ペツォールト</FullName>
+                        <KeyName>クリスティアン・ペツォールト</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>クリスティアンペツォールト</FullName>
+                        <KeyName>クリスティアンペツォールト</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T5</TechnicalResourceDetailsReference>
+                    <AudioCodecType>FLAC</AudioCodecType>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="kHz">44.1</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT0H1M56.72S</Duration>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>00028948190058_T5_audtrk.flac</FileName>
+                        <FilePath>resources/</FilePath>
+                        <HashSum>
+                            <HashSum>90ba5bf4293ba97f301e6c96e966e615</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>DEN961803091</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A4</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>1. Allegro</TitleText>
+            </ReferenceTitle>
+            <Duration>PT3M4S</Duration>
+            <CreationDate LocationDescription="National Centre for the Performing Arts, Beijing" TerritoryCode="CN">2018-07-19</CreationDate>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>1. Allegro</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Kuhlau: Piano Sonatina in C Major, Op. 20 No. 1 - 1. Allegro
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Piano Sonatina in C Major, Op. 20 No. 1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1: 第1楽章: Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번: 1. Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ: ダイイチガクショウアレグロ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Christopher Alder</FullName>
+                        <NamesBeforeKeyName>Christopher</NamesBeforeKeyName>
+                        <KeyName>Alder</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>Producer</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Philip Krause</FullName>
+                        <NamesBeforeKeyName>Philip</NamesBeforeKeyName>
+                        <KeyName>Krause</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Recording Engineer">UserDefined</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Mastering Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Peifeng Ma</FullName>
+                        <NamesBeforeKeyName>Peifeng</NamesBeforeKeyName>
+                        <KeyName>Ma</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Xinyi Zhou</FullName>
+                        <NamesBeforeKeyName>Xinyi</NamesBeforeKeyName>
+                        <KeyName>Zhou</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Friedrich Kuhlau</FullName>
+                        <NamesBeforeKeyName>Friedrich</NamesBeforeKeyName>
+                        <KeyName>Kuhlau</KeyName>
+                        <AbbreviatedName>Kuhlau</AbbreviatedName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T4</TechnicalResourceDetailsReference>
+                    <AudioCodecType>FLAC</AudioCodecType>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="kHz">44.1</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT0H3M4.613S</Duration>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>00028948190058_T4_audtrk.flac</FileName>
+                        <FilePath>resources/</FilePath>
+                        <HashSum>
+                            <HashSum>f3e760286e60ee264143d003982f586f</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>DEN961803092</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A5</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>2. Andante</TitleText>
+            </ReferenceTitle>
+            <Duration>PT3M3S</Duration>
+            <CreationDate LocationDescription="National Centre for the Performing Arts, Beijing" TerritoryCode="CN">2018-07-19</CreationDate>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>2. Andante</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Kuhlau: Piano Sonatina in C Major, Op. 20 No. 1 - 2. Andante
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Piano Sonatina in C Major, Op. 20 No. 1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1: 第2楽章: Andante</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번: 2. Andante</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ: ダイニガクショウアンダンテ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Christopher Alder</FullName>
+                        <NamesBeforeKeyName>Christopher</NamesBeforeKeyName>
+                        <KeyName>Alder</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>Producer</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Philip Krause</FullName>
+                        <NamesBeforeKeyName>Philip</NamesBeforeKeyName>
+                        <KeyName>Krause</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Recording Engineer">UserDefined</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Mastering Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Peifeng Ma</FullName>
+                        <NamesBeforeKeyName>Peifeng</NamesBeforeKeyName>
+                        <KeyName>Ma</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Xinyi Zhou</FullName>
+                        <NamesBeforeKeyName>Xinyi</NamesBeforeKeyName>
+                        <KeyName>Zhou</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Friedrich Kuhlau</FullName>
+                        <NamesBeforeKeyName>Friedrich</NamesBeforeKeyName>
+                        <KeyName>Kuhlau</KeyName>
+                        <AbbreviatedName>Kuhlau</AbbreviatedName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T3</TechnicalResourceDetailsReference>
+                    <AudioCodecType>FLAC</AudioCodecType>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="kHz">44.1</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT0H3M3.146S</Duration>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>00028948190058_T3_audtrk.flac</FileName>
+                        <FilePath>resources/</FilePath>
+                        <HashSum>
+                            <HashSum>b8914c2b2627139598e04710c75d4cf1</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>DEN961803093</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A6</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>3. Rondo. Allegro</TitleText>
+            </ReferenceTitle>
+            <Duration>PT2M47S</Duration>
+            <CreationDate LocationDescription="National Centre for the Performing Arts, Beijing" TerritoryCode="CN">2018-07-19</CreationDate>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>3. Rondo. Allegro</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Kuhlau: Piano Sonatina in C Major, Op. 20 No. 1 - 3. Rondo. Allegro
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Piano Sonatina in C Major, Op. 20 No. 1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1: 第3楽章: Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번: 3. Rondo. Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ: ダイサンガクショウアレグロ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Christopher Alder</FullName>
+                        <NamesBeforeKeyName>Christopher</NamesBeforeKeyName>
+                        <KeyName>Alder</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>Producer</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Philip Krause</FullName>
+                        <NamesBeforeKeyName>Philip</NamesBeforeKeyName>
+                        <KeyName>Krause</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Recording Engineer">UserDefined</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Mastering Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Peifeng Ma</FullName>
+                        <NamesBeforeKeyName>Peifeng</NamesBeforeKeyName>
+                        <KeyName>Ma</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <ResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Xinyi Zhou</FullName>
+                        <NamesBeforeKeyName>Xinyi</NamesBeforeKeyName>
+                        <KeyName>Zhou</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>StudioPersonnel</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Asst. Recording Engineer">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Friedrich Kuhlau</FullName>
+                        <NamesBeforeKeyName>Friedrich</NamesBeforeKeyName>
+                        <KeyName>Kuhlau</KeyName>
+                        <AbbreviatedName>Kuhlau</AbbreviatedName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+                    <AudioCodecType>FLAC</AudioCodecType>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="kHz">44.1</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT0H2M47.958S</Duration>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>00028948190058_T2_audtrk.flac</FileName>
+                        <FilePath>resources/</FilePath>
+                        <HashSum>
+                            <HashSum>8cbdd5f88b8858874b452c1ad4fa6aee</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <Image>
+            <ImageType>FrontCoverImage</ImageType>
+            <ImageId>
+                <ProprietaryId Namespace="DPID:PADPIDA2013042401U">19UMGIM97474</ProprietaryId>
+            </ImageId>
+            <ResourceReference>A7</ResourceReference>
+            <ImageDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Piano Book - Encore EP</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Piano Book - Encore EP</TitleText>
+                </Title>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <ResourceContributorRole>AssociatedPerformer</ResourceContributorRole>
+                    <ResourceContributorRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ResourceContributorRole>
+                </ResourceContributor>
+                <CLine>
+                    <Year>2019</Year>
+                    <CLineCompany>Deutsche Grammophon GmbH, Berlin</CLineCompany>
+                    <CLineText>© 2019 Deutsche Grammophon GmbH, Berlin</CLineText>
+                </CLine>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalImageDetails>
+                    <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+                    <ImageCodecType>TIFF</ImageCodecType>
+                    <ImageHeight UnitOfMeasure="Pixel">3000</ImageHeight>
+                    <ImageWidth UnitOfMeasure="Pixel">3000</ImageWidth>
+                    <File>
+                        <FileName>19UMGIM97474_T1_cvrart.tiff</FileName>
+                        <FilePath>resources/</FilePath>
+                        <HashSum>
+                            <HashSum>01e9ac43eef11d727981062b009f2eed</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalImageDetails>
+            </ImageDetailsByTerritory>
+        </Image>
+    </ResourceList>
+    <ReleaseList>
+        <Release IsMainRelease="true">
+            <ReleaseId>
+                <ICPN IsEan="false">00028948190058</ICPN>
+            </ReleaseId>
+            <ReleaseReference>R0</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Piano Book - Encore EP</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A7</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>Album</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <LabelName>Deutsche Grammophon (DG)</LabelName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Piano Book - Encore EP</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Piano Book - Encore EP</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <IsMultiArtistCompilation>false</IsMultiArtistCompilation>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroup>
+                        <SequenceNumber>1</SequenceNumber>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>1</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                            <ResourceGroupContentItemReleaseReference>R1</ResourceGroupContentItemReleaseReference>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>2</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                            <ResourceGroupContentItemReleaseReference>R2</ResourceGroupContentItemReleaseReference>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>3</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                            <ResourceGroupContentItemReleaseReference>R3</ResourceGroupContentItemReleaseReference>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>4</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                            <ResourceGroupContentItemReleaseReference>R4</ResourceGroupContentItemReleaseReference>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>5</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                            <ResourceGroupContentItemReleaseReference>R5</ResourceGroupContentItemReleaseReference>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>6</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                            <ResourceGroupContentItemReleaseReference>R6</ResourceGroupContentItemReleaseReference>
+                        </ResourceGroupContentItem>
+                    </ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>Image</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A7</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+                <CLine>
+                    <Year>2019</Year>
+                    <CLineCompany>Deutsche Grammophon GmbH, Berlin</CLineCompany>
+                    <CLineText>© 2019 Deutsche Grammophon GmbH, Berlin</CLineText>
+                </CLine>
+                <OriginalReleaseDate>2019-11-15</OriginalReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT15M8S</Duration>
+            <GlobalReleaseDate>2019-11-15</GlobalReleaseDate>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="DPID:PADPIDA2013042401U">00028948190058_DEN961803010_R1</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R1</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>21. Sweet Dreams</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>21. Sweet Dreams</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Tchaikovsky: Children's Album, Op. 39, TH 141 - 21. Sweet Dreams
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Children's Album, Op. 39, TH 141</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>子供のアルバム 作品39 TH141: 第21曲: 甘い夢</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>子供のアルバム 作品39 TH141</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>
+차이콥스키: 어린이를 위한 앨범, Op.39, TH 141: 21. 달콤한 꿈(Sweet Dreams)
+                    </TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>차이콥스키: 어린이를 위한 앨범, Op.39, TH 141</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>コドモノアルバムサクヒンサンジュウキュウ: ダイニジュウイチキョクアマイユメ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>コドモノアルバムサクヒンサンジュウキュウ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M39S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="DPID:PADPIDA2013042401U">00028948190058_DEN961803030_R2</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R2</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>1. Andantino "Ivan Sings"</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>1. Andantino "Ivan Sings"</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Khachaturian: Children's Album for Piano, Book I - 1. Andantino "Ivan Sings"
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Children's Album for Piano, Book I</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>こどものアルバム第1巻: 第1曲: 小さな歌（アンダンティーノ）</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>こどものアルバム第1巻</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>
+하차투리안: 어린이를 위한 피아노 곡집 1권: 1. Andantino "Ivan Sings"
+                    </TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>하차투리안: 어린이를 위한 피아노 곡집 1권</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>コドモノアルバムダイイチカン: ダイイチキョクチイサナウタアンダンティーノ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>コドモノアルバムダイイチカン</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT1M36S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="DPID:PADPIDA2013042401U">00028948190058_DEN961802170_R3</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R3</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>
+Minuet No. 2 in G Minor (Formerly Attrib. J.S. Bach as BWV Anh. 115)
+                </TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>
+Minuet No. 2 in G Minor (Formerly Attrib. J.S. Bach as BWV Anh. 115)
+                    </TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Petzold: Minuet No. 2 in G Minor (Formerly Attrib. J.S. Bach as BWV Anh. 115)
+                    </TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>メヌエット 第2番 ト短調　[アンナ・マグダレーナ・バッハの音楽帳 BWV Anh. 115]</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>メヌエットダイニバントタンチョウアンナマグダレーナバッハノオンガクチョウ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT1M57S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="DPID:PADPIDA2013042401U">00028948190058_DEN961803091_R4</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R4</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>1. Allegro</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>1. Allegro</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Kuhlau: Piano Sonatina in C Major, Op. 20 No. 1 - 1. Allegro
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Piano Sonatina in C Major, Op. 20 No. 1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1: 第1楽章: Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번: 1. Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ: ダイイチガクショウアレグロ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M5S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="DPID:PADPIDA2013042401U">00028948190058_DEN961803092_R5</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R5</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>2. Andante</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>2. Andante</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Kuhlau: Piano Sonatina in C Major, Op. 20 No. 1 - 2. Andante
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Piano Sonatina in C Major, Op. 20 No. 1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1: 第2楽章: Andante</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번: 2. Andante</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ: ダイニガクショウアンダンテ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M3S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="DPID:PADPIDA2013042401U">00028948190058_DEN961803093_R6</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R6</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>3. Rondo. Allegro</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>3. Rondo. Allegro</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>
+Kuhlau: Piano Sonatina in C Major, Op. 20 No. 1 - 3. Rondo. Allegro
+                    </TitleText>
+                </Title>
+                <Title TitleType="GroupingTitle">
+                    <TitleText>Piano Sonatina in C Major, Op. 20 No. 1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Jpan">          
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1: 第3楽章: Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Jpan" TitleType="GroupingTitle">
+                    <TitleText>ピアノのためのソナチネ ハ長調 作品20の1</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ko">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번: 3. Rondo. Allegro</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ko" TitleType="GroupingTitle">
+                    <TitleText>클라우: 소나티네 C장조, Op.20 1번</TitleText>
+                </Title>
+                <Title TitleType="TranslatedTitle" LanguageAndScriptCode="ja-Hrkt">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ: ダイサンガクショウアレグロ</TitleText>
+                </Title>
+                <Title LanguageAndScriptCode="ja-Hrkt" TitleType="GroupingTitle">
+                    <TitleText>ピアノノタメノソナチネハチョウチョウサクヒンニジュウノイチ</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Lang Lang</FullName>
+                        <NamesBeforeKeyName>Lang</NamesBeforeKeyName>
+                        <KeyName>Lang</KeyName>
+                        <AbbreviatedName>Lang</AbbreviatedName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Jpan">
+                        <FullName>ラン・ラン</FullName>
+                        <KeyName>ラン・ラン</KeyName>
+                    </PartyName>
+                    <PartyName LanguageAndScriptCode="ja-Hrkt">
+                        <FullName>ランラン</FullName>
+                        <KeyName>ランラン</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>AssociatedPerformer</ArtistRole>
+                    <ArtistRole Namespace="DPID:PADPIDA2013042401U" UserDefinedValue="Piano">UserDefined</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Classical</GenreText>
+                </Genre>
+                <PLine>
+                    <Year>2019</Year>
+                    <PLineCompany>Deutsche Grammophon GmbH, Berlin</PLineCompany>
+                    <PLineText>℗ 2019 Deutsche Grammophon GmbH, Berlin</PLineText>
+                </PLine>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M48S</Duration>
+        </Release>
+    </ReleaseList>
+    <DealList>
+        <ReleaseDeal>
+            <DealReleaseReference>R0</DealReleaseReference>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>CN</TerritoryCode>
+                    <ValidityPeriod>
+                        <StartDate>2019-11-15</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2019-11-15</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2019-11-15</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2019-11-15</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2019-11-15</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+        </ReleaseDeal>
+        <ReleaseDeal>
+            <DealReleaseReference>R1</DealReleaseReference>
+            <DealReleaseReference>R2</DealReleaseReference>
+            <DealReleaseReference>R3</DealReleaseReference>
+            <DealReleaseReference>R4</DealReleaseReference>
+            <DealReleaseReference>R5</DealReleaseReference>
+            <DealReleaseReference>R6</DealReleaseReference>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>Stream</UseType>
+                    </Usage>
+                    <TerritoryCode>CN</TerritoryCode>
+                    <ValidityPeriod>
+                        <StartDate>2019-11-15</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2019-11-15</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2019-11-15</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2019-11-15</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2019-11-15</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>CN</TerritoryCode>
+                    <ValidityPeriod>
+                        <StartDate>2019-11-15</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2019-11-15</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2019-11-15</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2019-11-15</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2019-11-15</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+        </ReleaseDeal>
+    </DealList>
+</ernm:NewReleaseMessage>

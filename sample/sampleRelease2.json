@@ -1,0 +1,244 @@
+{
+    "status": "incomplete",
+    "plan": "",
+    "chargePerTrack": "medium",
+    "chargePerAlbum": "medium",
+    "distributeStoresType": "free",
+    "isReRelease": false,
+    "preReleaseEnabled": false,
+    "id": 1195,
+    "createdTime": "2019-01-23T11:04:27.000Z",
+    "title": "我的名字",
+    "cartItemId": "Error: timeout of 10000ms exceeded",
+    "orderId": "",
+    "authorCategory": "solo",
+    "type": "ep",
+    "copyrightHolder": "Goomusic Ltd.",
+    "recordLabel": "default",
+    "autoGenIsrcCode": true,
+    "artworkSrc": "https://assets.oneshop.cloud/2D83C85D-7D9E-4BAE-992E-8F18245E08CD.jpeg",
+    "artworkFilename": "SampleJPGImage_5mbmb.jpg",
+    "primaryGenre": "Soundtrack",
+    "secondaryGenre": "electronicDance",
+    "language": "zh",
+    "hasConfirmedTracksLegalOwner": true,
+    "customnChargePerAlbum": "0",
+    "selectedStores": [
+        "appleMusic",
+        "itunes",
+        "itunesRadio",
+        "spotify",
+        "kkbox",
+        "joox"
+    ],
+    "useCustomUPCCode": "false",
+    "upcCode": false,
+    "previousReleaseDate": "2019-01-09",
+    "preReleaseDates": {},
+    "releaseASAP": false,
+    "releaseDate": "2019-02-14",
+    "hasGeoRestriction": true,
+    "selectedRegions": [
+        "KR",
+        "TW",
+        "HK"
+    ],
+    "agreeTNC": true,
+    "confirmedInfoCorrect": true,
+    "producers": "Mich Chan",
+    "conductors": "David Chan",
+    "arrangers": "Mich Chan",
+    "orchestra": "Hong Kong Orchestra",
+    "releaseTime": "12:00",
+    "copyrightYear": 2019,
+    "artists": [
+        {
+            "id": "1069",
+            "name": "Mich Chan",
+            "type": "main"
+        },
+        {
+            "id": "1237",
+            "name": "David Chan",
+            "type": "featuring"
+        },
+        {
+            "id": "1130",
+            "name": "Mich Ho",
+            "type": "featuring"
+        }
+    ],
+    "tracks": [
+        {
+            "key": "15483230124121",
+            "duration": 111.0465306122449,
+            "filename": "junior85_-_01_-_in_sleepy_electricity.mp3",
+            "src": "https://assets.oneshop.cloud/6C364DCA-AF8E-4221-9789-C5E7A7894571.mpga",
+            "status": "uploadComplete",
+            "name": "Junior Electricity Sleepy",
+            "hasExplicitContent": false,
+            "copyrightHolder": "Goomusic Ltd.",
+            "copyrightYear": 2019,
+            "isrc": "",
+            "publishRightHolder": "Goomusic Ltd.",
+            "publishedYear": 2019,
+            "lyrics": "",
+            "artists": [
+                {
+                    "id": "1069",
+                    "name": "Mich Chan",
+                    "type": "main"
+                },
+                {
+                    "id": "1237",
+                    "name": "David Chan",
+                    "type": "main"
+                },
+                {
+                    "id": "1130",
+                    "name": "Mich Ho",
+                    "type": "featuring"
+                },
+                {
+                    "id": "1233",
+                    "name": "David Lee",
+                    "type": "featuring"
+                },
+                {
+                    "id": "null",
+                    "name": "Joey Lee",
+                    "type": "featuring"
+                }
+            ],
+            "composers": [
+                {
+                    "id": "1130",
+                    "name": "Mich Ho"
+                }
+            ],
+            "lyrists": [
+                {
+                    "id": "1069",
+                    "name": "Mich Chan"
+                }
+            ],
+            "arrangers": [
+                {
+                    "id": "1130",
+                    "name": "Mich Ho"
+                }
+            ],
+            "producers": [
+                {
+                    "id": "1239",
+                    "name": "Mark Lui"
+                }
+            ],
+            "remixers": "Mich Chan Remixer",
+            "conductors": "Mich Chan Conductor",
+            "orchestra": "David Lee"
+        },
+        {
+            "key": "15483940214190",
+            "duration": 83.2261224489796,
+            "filename": "Friends_or_Whatever_-_10_-_Smoke_Floats.mp3",
+            "src": "https://assets.oneshop.cloud/B2F9E35D-55A2-45F6-AC2B-492C8BB0EF02.mpga",
+            "status": "uploadComplete",
+            "name": "Friends_or_Whatever_-_10_-_Smoke_Floats",
+            "hasExplicitContent": false,
+            "copyrightHolder": "Goomusic Ltd.",
+            "copyrightYear": 2019,
+            "isrc": "",
+            "publishRightHolder": "Goomusic Ltd.",
+            "publishedYear": 2019,
+            "lyrics": "",
+            "artists": [
+                {
+                    "id": "1069",
+                    "name": "Mich Chan",
+                    "type": "main"
+                },
+                {
+                    "id": "1237",
+                    "name": "David Chan",
+                    "type": "featuring"
+                },
+                {
+                    "id": "1130",
+                    "name": "Mich Ho",
+                    "type": "featuring"
+                }
+            ],
+            "composers": [
+                {
+                    "id": "1069",
+                    "name": "Mich Chan"
+                }
+            ],
+            "lyrists": [
+                {
+                    "id": "1069",
+                    "name": "Mich Chan"
+                }
+            ],
+            "arrangers": [
+                {
+                    "id": "1069",
+                    "name": "Mich Chan"
+                }
+            ],
+            "producers": [
+                {
+                    "id": "1069",
+                    "name": "Mich Chan"
+                }
+            ],
+            "remixers": "Mich Chan",
+            "conductors": "Mich Chan",
+            "orchestra": "David Lee"
+        }
+    ],
+    "remixers": "David Lee",
+    "__shouldValidateState": {
+        "plan": true,
+        "chargePerTrack": true,
+        "chargePerAlbum": true,
+        "distributeStoresType": true,
+        "isReRelease": true,
+        "preReleaseEnabled": true,
+        "title": true,
+        "authorCategory": true,
+        "type": true,
+        "copyrightHolder": true,
+        "copyrightYear": true,
+        "recordLabel": true,
+        "autoGenIsrcCode": true,
+        "artworkSrc": true,
+        "artworkFilename": true,
+        "primaryGenre": true,
+        "secondaryGenre": true,
+        "language": true,
+        "hasConfirmedTracksLegalOwner": true,
+        "customnChargePerAlbum": true,
+        "selectedStores": true,
+        "useCustomUPCCode": true,
+        "upcCode": true,
+        "previousReleaseDate": true,
+        "preReleaseDates": true,
+        "releaseASAP": true,
+        "releaseDate": true,
+        "hasGeoRestriction": true,
+        "selectedRegions": true,
+        "agreeTNC": true,
+        "confirmedInfoCorrect": true,
+        "producers": true,
+        "conductors": true,
+        "arrangers": true,
+        "orchestra": true,
+        "releaseTime": true,
+        "artists": true,
+        "tracks": true,
+        "remixers": true
+    },
+    "updatedTime": "2019-02-21T11:37:31.780Z"
+}

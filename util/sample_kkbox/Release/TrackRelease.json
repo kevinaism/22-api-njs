@@ -1,0 +1,140 @@
+{
+  "ReleaseId": [
+    {
+      "ISRC": [
+        {
+          "_":"{{ICPN}}"
+          
+        }
+      ]
+    }
+  ],
+  "ReleaseReference": [
+    "R0"
+  ],
+  "ReferenceTitle": [
+    {
+      "TitleText": [
+        "{{NAME}}"
+      ]
+    }
+  ],
+  "ReleaseResourceReferenceList": [
+    {
+      "ReleaseResourceReference": [
+        {
+          "_": "A1",
+          "$": {
+            "ReleaseResourceType": "PrimaryResource"
+          }
+        }
+      ]
+    }
+  ],
+  "ReleaseType": [
+    "TrackRelease"
+  ],
+  "ReleaseDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "HK",
+        "TW"
+      ],
+      "DisplayArtistName": [
+        "{{ARTIST}}"
+      ],
+      "LabelName": [
+        "Twenty Two Limited"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "DisplayArtist": [],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "ResourceGroup": [
+        {
+          "ResourceGroup": [
+            {
+              "Title": [
+                {
+                  "$": {
+                    "TitleType": "GroupingTitle"
+                  },
+                  "TitleText": [
+                    "Component 1"
+                  ]
+                }
+              ],
+              "SequenceNumber": [
+                "1"
+              ],
+              "ResourceGroupContentItem": [
+                {
+                  "SequenceNumber": [
+                    "1"
+                  ],
+                  "ResourceType": [
+                    "SoundRecording"
+                  ],
+                  "ReleaseResourceReference": [
+                    {
+                      "_": "A1",
+                      "$": {
+                        "ReleaseResourceType": "PrimaryResource"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Genre": [
+        {
+          "GenreText": [
+            "Instrumental"
+          ]
+        }
+      ],
+      "ReleaseDate": []
+    }
+  ],
+  "PLine": [
+    {
+      "Year": [
+        "2019"
+      ],
+      "PLineText": [
+        "(P)2019 twentytwomusic.com"
+      ]
+    }
+  ],
+  "CLine": [
+    {
+      "Year": [
+        "2019"
+      ],
+      "CLineText": [
+        "(C) 2019 twentytwomusic.com"
+      ]
+    }
+  ]
+}

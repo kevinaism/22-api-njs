@@ -1,0 +1,120 @@
+{
+  "SoundRecordingType": [
+    "MusicalWorkSoundRecording"
+  ],
+  "SoundRecordingId": [
+    {
+      "ISRC": [
+        "{{ISRC}}"
+      ]
+    }
+  ],
+  "ResourceReference": [
+    "A1"
+  ],
+  "ReferenceTitle": [
+    {
+      "TitleText": [
+        "{{NAME}}"
+      ]
+    }
+  ],
+  "Duration": [
+    "{{DURATION}}"
+  ],
+  "SoundRecordingDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "HK",
+        "TW"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "DisplayArtist": [],
+      "LabelName": [
+        "Twenty Two Limited"
+      ],
+      "ResourceContributor": [],
+      "IndirectResourceContributor": [],
+      "ResourceReleaseDate": [
+        "2019"
+      ],
+      "RightsController":{
+        "PartyName":{
+          "FullName":[
+            "Goomusic Ltd"
+          ]
+        },
+        "RightsControllerRole":[
+          "RightsController"
+        ],
+        "RightSharePercentage":[
+          "100.0"
+        ],
+        "DelegatedUsageRights":{
+          "UseType":[
+            "OnDemandStream","TetheredDownload","PermanentDownload"
+          ],
+          "PeriodOfRightsDelegation":{
+            "StartDate":[""]
+          },
+          "TerritoryOfRightsDelegation":["HK"]
+        },
+        "IsPayingOutRoyalties":["false"]
+      },
+      "PLine": [
+        {
+          "Year": [
+            "2019"
+          ],
+          "PLineText": [
+            "(P) 2019 twentytwomusic.com"
+          ]
+        }
+      ],
+      "Genre": [
+        {
+          "GenreText": [
+            "Instrumental"
+          ]
+        }
+      ],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "TechnicalSoundRecordingDetails": [
+        {
+          "TechnicalResourceDetailsReference": [
+            "T1"
+          ],
+          "File": [
+            {
+              "FileName": [
+                "{{BATCH_ID}}_0.wav"
+              ],
+              "FilePath": [
+                "resources/"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

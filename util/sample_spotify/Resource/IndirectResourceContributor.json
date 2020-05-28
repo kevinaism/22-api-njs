@@ -1,0 +1,19 @@
+{
+  "$":{
+     "SequenceNumber": ""
+  },
+  "PartyName": [
+    {
+      "FullName": [
+        "{{COMPOSER}}"
+      ],
+      "KeyName": [
+        "{{COMPOSER}}"
+      ]
+
+    }
+  ],
+  "IndirectResourceContributorRole": [
+    "Composer"
+  ]
+}

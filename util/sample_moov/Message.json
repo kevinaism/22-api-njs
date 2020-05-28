@@ -1,0 +1,28 @@
+{
+  "MessageThreadId": [
+    "127585950"
+  ],
+  "MessageId": [
+    "201804280350000"
+  ],
+  "MessageSender": [
+    {
+      "PartyId": [
+        "PADPIDA2018041902M"
+      ],
+      "PartyName": [
+        {
+          "FullName": [
+            "Twenty Two Limited"
+          ]
+        }
+      ]
+    }
+  ],
+  "MessageCreatedDateTime": [
+    "2019-01-19T07:15:34.277Z"
+  ],
+  "MessageControlType": [
+    "LiveMessage"
+  ]
+}

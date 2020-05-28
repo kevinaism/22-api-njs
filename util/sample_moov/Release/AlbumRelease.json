@@ -1,0 +1,139 @@
+{
+  "$": {
+    "IsMainRelease": "true"
+  },
+  "ReleaseId": [
+    {
+      "ICPN": [
+        {
+          "_": "{{ICPN}}",
+          "$": {
+            "ISEan": "false"
+          }
+        }
+      ],
+      "ProprietaryId":[
+        "P10002726462"
+      ]
+    }
+  ],
+  "ReleaseReference": [
+    "R0"
+  ],
+  "ReferenceTitle": [
+    {
+      "TitleText": [
+        "{{NAME}}"
+      ],
+      "SubTitle":[
+        "普通版"
+      ]
+    }
+  ],
+  "ReleaseResourceReferenceList": [
+    {
+      "ReleaseResourceReference": []
+    }
+  ],
+  "ReleaseType": [],
+  "ReleaseDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "HK",
+        "TW"
+      ],
+      "DisplayArtistName": [
+        "{{ARTIST}}"
+      ],
+      "LabelName": [
+        "Twenty Two Limited"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "DisplayArtist": [],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "ResourceGroup": [
+        {
+          "ResourceGroup": [
+            {
+              "Title": [
+                {
+                  "$": {
+                    "TitleType": "GroupingTitle"
+                  },
+                  "TitleText": [
+                    "Component 1"
+                  ]
+                }
+              ],
+              "SequenceNumber": [
+                "1"
+              ],
+              "ResourceGroupContentItem": [],
+              "LinkedReleaseResourceReference":{
+                "$": {
+                  "LinkDescription": "Lyrics"
+                },
+                "": [
+                  "Component 1"
+                ]
+              }
+            }
+          ],
+          "ResourceGroupContentItem": []
+        }
+      ],
+      "Genre": [
+        {
+          "GenreText": [
+            "Instrumental"
+          ],
+          "SubGenre":[
+            "Instrumental"
+          ]
+        }
+      ],
+      "ReleaseDate": [
+        "{{RELEASE_DATE}}"
+      ]
+    }
+  ],
+  "PLine": [
+    {
+      "Year": [
+        "2019"
+      ],
+      "PLineText": [
+        "(P)2019 twentytwomusic.com"
+      ]
+    }
+  ],
+  "CLine": [
+    {
+      "Year": [
+        "2019"
+      ],
+      "CLineText": [
+        "(C) 2019 twentytwomusic.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/38" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://ddex.net/xml/ern/38 http://ddex.net/xml/ern/38/release-notification.xsd" MessageSchemaVersionId="ern/382" ReleaseProfileVersionId="CommonReleaseTypes/13/AudioSingle" LanguageAndScriptCode="en">
+  <MessageHeader>
+    <MessageId>201804280350000</MessageId>
+    <MessageSender>
+      <PartyId>PADPIDA2018041902M</PartyId>
+      <PartyName>
+        <FullName>Twenty Two Limited</FullName>
+      </PartyName>
+    </MessageSender>
+    <MessageRecipient>
+      <PartyId>PADPIDA2010093001B</PartyId>
+      <PartyName>
+        <FullName>KKBOX Taiwan Co. Ltd.</FullName>
+      </PartyName>
+    </MessageRecipient>
+    <MessageCreatedDateTime>{{TIME}}</MessageCreatedDateTime>
+    <MessageControlType>LiveMessage</MessageControlType>
+  </MessageHeader>
+  <UpdateIndicator>OriginalMessage</UpdateIndicator>
+  <ResourceList>
+    <SoundRecording>
+      <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+      <SoundRecordingId>
+        <ISRC>{{ISRC}}</ISRC>
+      </SoundRecordingId>
+      <ResourceReference>A1</ResourceReference>
+      <ReferenceTitle>
+        <TitleText>{{NAME}}</TitleText>
+      </ReferenceTitle>
+      <Duration>{{DURATION}}</Duration>
+      <SoundRecordingDetailsByTerritory>
+        <TerritoryCode>HK</TerritoryCode>
+        <TerritoryCode>TW</TerritoryCode>
+        <Title TitleType="FormalTitle">
+          <TitleText>{{NAME}}</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>{{NAME}}</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>{{ARTIST}}</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <LabelName>Twenty Two Limited</LabelName>		
+        <ResourceContributor SequenceNumber="1">
+          <PartyName>
+            <FullName>{{PRODUCER}}</FullName>
+          </PartyName>
+          <ResourceContributorRole>Producer</ResourceContributorRole>
+        </ResourceContributor>
+        <IndirectResourceContributor SequenceNumber="1">
+          <PartyName>
+            <FullName>{{COMPOSER}}</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        <ResourceReleaseDate>2019</ResourceReleaseDate>		
+        <PLine>
+          <Year>2019</Year>
+          <PLineText>(P) 2019 twentytwomusic.com</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>Instrumental</GenreText>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+          <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+          <File>
+            <FileName>{{BATCH_ID}}_0.wav</FileName>
+            <FilePath>resources/</FilePath>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+    <Image>
+      <ImageType>FrontCoverImage</ImageType>
+      <ResourceReference>A2</ResourceReference>
+      <ImageDetailsByTerritory>
+        <TerritoryCode>HK</TerritoryCode>
+        <TerritoryCode>TW</TerritoryCode>
+        <TerritoryCode>SG</TerritoryCode>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalImageDetails>
+          <TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+          <File>
+            <FileName>{{BATCH_ID}}.jpg</FileName>
+            <FilePath>resources/</FilePath>
+          </File>
+        </TechnicalImageDetails>
+      </ImageDetailsByTerritory>
+    </Image>
+  </ResourceList>
+  <ReleaseList>
+    <Release IsMainRelease="true">
+      <ReleaseId>
+        <ISRC>{{ISRC}}</ISRC>
+      </ReleaseId>
+      <ReleaseReference>R0</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>{{NAME}}</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A2</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>Single</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>HK</TerritoryCode>
+        <TerritoryCode>TW</TerritoryCode>
+        <DisplayArtistName>{{ARTIST}}</DisplayArtistName>
+        <LabelName>Twenty Two Limited</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>{{NAME}}</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>{{NAME}}</TitleText>
+        </Title>
+        <DisplayArtist>
+          <PartyName>
+            <FullName>{{ARTIST}}</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <ResourceGroup>
+          <ResourceGroup>
+            <Title TitleType="GroupingTitle">
+              <TitleText>Component 1</TitleText>
+            </Title>
+            <SequenceNumber>1</SequenceNumber>
+            <ResourceGroupContentItem>
+              <SequenceNumber>1</SequenceNumber>
+              <ResourceType>SoundRecording</ResourceType>
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+            </ResourceGroupContentItem>
+          </ResourceGroup>
+          <ResourceGroupContentItem>
+            <ResourceType>Image</ResourceType>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A2</ReleaseResourceReference>
+          </ResourceGroupContentItem>
+        </ResourceGroup>
+        <Genre>
+          <GenreText>Instrumental</GenreText>
+        </Genre>
+        <ReleaseDate>{{RELEASE_DATE}}</ReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <PLine>
+        <Year>2019</Year>
+        <PLineText>(P)2019 twentytwomusic.com</PLineText>
+      </PLine>
+      <CLine>
+        <Year>2019</Year>
+        <CLineText>(C) 2019 twentytwomusic.com</CLineText>
+      </CLine>
+    </Release>
+    <Release>
+      <ReleaseId>
+        <ICPN ISEan="false">{{UPC}}</ICPN>
+      </ReleaseId>
+      <ReleaseReference>R1</ReleaseReference>
+      <ReferenceTitle>
+        <TitleText>{{NAME}}</TitleText>
+      </ReferenceTitle>
+      <ReleaseResourceReferenceList>
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+      </ReleaseResourceReferenceList>
+      <ReleaseType>TrackRelease</ReleaseType>
+      <ReleaseDetailsByTerritory>
+        <TerritoryCode>HK</TerritoryCode>
+        <TerritoryCode>TW</TerritoryCode>
+        <DisplayArtistName>{{ARTIST}}</DisplayArtistName>
+        <LabelName>Twenty Two Limited</LabelName>
+        <Title TitleType="FormalTitle">
+          <TitleText>{{NAME}}</TitleText>
+        </Title>
+        <Title TitleType="DisplayTitle">
+          <TitleText>{{NAME}}</TitleText>
+        </Title>
+        <DisplayArtist SequenceNumber="1">
+          <PartyName>
+            <FullName>{{ARTIST}}</FullName>
+          </PartyName>
+          <ArtistRole>MainArtist</ArtistRole>
+        </DisplayArtist>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <ResourceGroup>
+          <ResourceGroupContentItem>
+            <SequenceNumber>1</SequenceNumber>
+            <ResourceType>SoundRecording</ResourceType>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+          </ResourceGroupContentItem>
+        </ResourceGroup>
+        <Genre>
+          <GenreText>Instrumental</GenreText>
+        </Genre>
+        <ReleaseDate>{{RELEASE_DATE}}</ReleaseDate>
+      </ReleaseDetailsByTerritory>
+      <PLine>
+        <Year>2019</Year>
+        <PLineText>(P) 2019 twentytwomusic.com</PLineText>
+      </PLine>
+      <CLine>
+        <Year>2019</Year>
+        <CLineText>(C) 2019 twentytwomusic.com</CLineText>
+      </CLine>
+    </Release>
+  </ReleaseList>
+  <DealList>
+  <ReleaseDeal>
+       <DealReleaseReference>R1</DealReleaseReference>
+       <Deal>
+         <DealTerms>
+           <CommercialModelType>SubscriptionModel</CommercialModelType>
+           <Usage>
+               <UseType>OnDemandStream</UseType>
+               <UseType>TetheredDownload</UseType>			   
+           </Usage>
+           <TerritoryCode>Worldwide</TerritoryCode>
+           <ValidityPeriod>
+             <StartDate>{{RELEASE_DATE}}</StartDate>
+           </ValidityPeriod>
+         </DealTerms>
+       </Deal>
+       <Deal>
+         <DealTerms>
+           <CommercialModelType>SubscriptionModel</CommercialModelType>
+           <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+           <Usage>
+               <UseType>PermanentDownload</UseType>
+           </Usage>
+           <TerritoryCode>Worldwide</TerritoryCode>
+           <ValidityPeriod>
+             <StartDate>{{RELEASE_DATE}}</StartDate>
+           </ValidityPeriod>
+         </DealTerms>
+       </Deal>
+ </ReleaseDeal>
+  </DealList>
+</ern:NewReleaseMessage>

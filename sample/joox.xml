@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/38"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	xs:schemaLocation="http://ddex.net/xml/ern/38 http://ddex.net/xml/ern/38/release-notification.xsd"
+	MessageSchemaVersionId="ern/382" 
+	ReleaseProfileVersionId="CommonReleaseTypes/13/AudioSingle" LanguageAndScriptCode="en">
+    <MessageHeader>
+        <MessageId>20180623130117271</MessageId>
+		<MessageSender>
+            <PartyId>PADPIDA2018041902M</PartyId>
+            <PartyName>
+                <FullName>Twenty Two Limited</FullName>
+            </PartyName>
+        </MessageSender>
+		<MessageRecipient>
+			<PartyId>DPID_OF_THE_RECIPIENT</PartyId>
+			<PartyName>
+				<FullName>XXXXXXXX Co.,Ltd</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageCreatedDateTime>2018-06-23T13:01:17.271Z</MessageCreatedDateTime>
+		<MessageControlType>LiveMessage</MessageControlType>
+    </MessageHeader>
+	<UpdateIndicator>OriginalMessage</UpdateIndicator>	
+    <ResourceList>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>HKJ051800001</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A1</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>極夜後</TitleText>
+            </ReferenceTitle>
+            <Duration>P0DT0H4M35.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>極夜後</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>極夜後</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>何韻詩</FullName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+				<ResourceContributor SequenceNumber="1">
+					<PartyName>
+						<FullName>何秉舜</FullName>
+					</PartyName>
+					<ResourceContributorRole>Producer</ResourceContributorRole>
+				</ResourceContributor>
+				<IndirectResourceContributor SequenceNumber="1">
+					<PartyName>
+						<FullName>何韻詩</FullName>
+					</PartyName>
+					<IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				<ResourceReleaseDate>2018-05-14</ResourceReleaseDate>				
+                <RightsController>
+                    <PartyName>
+                        <FullName>Goomusic Ltd</FullName>
+                    </PartyName>
+                    <RightsControllerRole>RightsController</RightsControllerRole>        
+                    <RightSharePercentage>100.0</RightSharePercentage>
+                    <DelegatedUsageRights>
+                       <UseType>OnDemandStream</UseType>
+                       <UseType>TetheredDownload</UseType>
+                       <UseType>PermanentDownload</UseType>
+                    <PeriodOfRightsDelegation>
+                        <StartDate>2018-05-14</StartDate> 
+                    </PeriodOfRightsDelegation>
+                    <TerritoryOfRightsDelegation>HK</TerritoryOfRightsDelegation>
+                    </DelegatedUsageRights>
+                    <IsPayingOutRoyalties>false</IsPayingOutRoyalties>                
+				</RightsController>
+				<PLine>
+					<Year>2018</Year>
+					<PLineText>(P) 2018 Goomusic Ltd</PLineText>
+				</PLine>				
+                <Genre>
+                    <GenreText>Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+                    <File>
+                        <FileName>641022997383_T1.wav</FileName>
+                        <FilePath>/resources</FilePath>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>	
+        <Image>
+            <ImageType>FrontCoverImage</ImageType>
+            <ResourceReference>A2</ResourceReference>
+            <ImageDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <TechnicalImageDetails>
+                    <TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+                    <File>
+                        <FileName>641022997383_T2.JPG</FileName>
+                    </File>
+                </TechnicalImageDetails>
+            </ImageDetailsByTerritory>
+        </Image>
+    </ResourceList>
+    <ReleaseList>
+        <Release IsMainRelease="true">	
+			<ReleaseId>
+				<UPC>641022997383</UPC>
+				<ISRC>HKJ051800001</ISRC>				
+			</ReleaseId>
+            <ReleaseReference>R0</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>極夜後</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A2</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>Single</ReleaseType>
+            <ReleaseDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>何韻詩</DisplayArtistName>
+				<LabelName>Twenty Two</LabelName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>極夜後</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>極夜後</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>何韻詩</FullName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+				  <ResourceGroup>				
+                    <Title TitleType="GroupingTitle">
+                        <TitleText>Component 1</TitleText>
+                    </Title>
+                    <SequenceNumber>1</SequenceNumber>
+                    <ResourceGroupContentItem>
+                        <SequenceNumber>1</SequenceNumber>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                  </ResourceGroup>
+					<ResourceGroupContentItem>
+						<ResourceType>Image</ResourceType>
+						<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A2</ReleaseResourceReference>
+					</ResourceGroupContentItem>
+				</ResourceGroup>
+                <Genre>
+                    <GenreText>pop</GenreText>
+                </Genre>
+                <ReleaseDate>2018-05-14</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <PLine>
+					<Year>2018</Year>
+					<PLineText>(P) 2018 Goomusic Ltd</PLineText>
+			</PLine>
+            <CLine>
+                <CLineText>(C) 2018 Goomusic Ltd</CLineText>
+            </CLine>
+            <GlobalOriginalReleaseDate>2018-05-14</GlobalOriginalReleaseDate>			
+        </Release>
+		<Release>
+			<ReleaseId>
+				<UPC>641022997383</UPC>
+				<ISRC>HKJ051800001</ISRC>				
+			</ReleaseId>		
+            <ReleaseReference>R1</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>極夜後</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A2</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+			<ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>何韻詩</DisplayArtistName>
+				<LabelName>Twenty Two</LabelName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>極夜後</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>極夜後</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>何韻詩</FullName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>		
+                    <Title TitleType="GroupingTitle">
+                        <TitleText>Component 1</TitleText>
+                    </Title>
+                    <SequenceNumber>1</SequenceNumber>
+                    <ResourceGroupContentItem>
+                        <SequenceNumber>1</SequenceNumber>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+				</ResourceGroup>
+                <Genre>
+                    <GenreText>pop</GenreText>
+                </Genre>
+                <ReleaseDate>2018-05-14</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <PLine>
+					<Year>2018</Year>
+					<PLineText>(P) 2018 Goomusic Ltd</PLineText>
+			</PLine>
+            <CLine>
+                <CLineText>(C) 2018 Goomusic Ltd</CLineText>
+            </CLine>
+            <GlobalOriginalReleaseDate>2018-05-14</GlobalOriginalReleaseDate>			
+        </Release>		
+    </ReleaseList>
+    <DealList>
+        <ReleaseDeal>
+            <DealReleaseReference>R0</DealReleaseReference>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                       <UseType>OnDemandStream</UseType>
+                       <UseType>TetheredDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>Worldwide</TerritoryCode>
+                    <ValidityPeriod>
+                        <StartDate>2018-05-14</StartDate>
+                    </ValidityPeriod>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                       <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>Worldwide</TerritoryCode>
+                    <ValidityPeriod>
+                        <StartDate>2018-05-14</StartDate>
+                    </ValidityPeriod>
+                </DealTerms>
+            </Deal>
+        </ReleaseDeal>
+    </DealList>	
+</ern:NewReleaseMessage>

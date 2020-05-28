@@ -1,0 +1,18 @@
+{
+  "$": {
+    "SequenceNumber": ""
+  },
+  "PartyName": [
+      {
+        "FullName": [
+          "{{PRODUCER}}"
+        ],
+        "KeyName": [
+          "{{ARTIST}}"
+        ]
+      }
+    ],
+    "ResourceContributorRole": [
+      "Producer"
+    ]
+}

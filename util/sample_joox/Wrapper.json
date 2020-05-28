@@ -1,0 +1,12 @@
+{
+  "ern:NewReleaseMessage": {
+    "$": {
+      "xmlns:ern": "http://ddex.net/xml/ern/38",
+      "xmlns:xs": "http://www.w3.org/2001/XMLSchema-instance",
+      "xs:schemaLocation": "http://ddex.net/xml/ern/38 http://ddex.net/xml/ern/38/release-notification.xsd",
+      "MessageSchemaVersionId": "ern/382",
+      "ReleaseProfileVersionId": "CommonReleaseTypes/13/AudioSingle",
+      "LanguageAndScriptCode": "en"
+    }
+  }
+}

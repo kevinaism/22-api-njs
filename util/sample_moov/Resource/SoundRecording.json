@@ -1,0 +1,169 @@
+{
+  "SoundRecordingType": [
+    "MusicalWorkSoundRecording"
+  ],
+  "SoundRecordingId": [
+    {
+      "ISRC": [
+        "{{ISRC}}"
+      ]
+    },
+    {
+      "$": {
+      "Namespace": "DPID:SamplePartyId"
+      },
+      "ProprietaryId": [
+        "T10049558123"
+      ]
+    }
+  ],
+  "ResourceReference": [
+    "A1"
+  ],
+  "ReferenceTitle": [
+    {
+      "TitleText": [
+        "{{NAME}}"
+      ]
+    },
+    {
+      "SubTitle": [
+        "{{NAME}}"
+      ]
+    }
+  ],
+  "LanguageOfPerformance": [
+    "{{NAME}}"
+  ],
+  "Duration": [
+    "{{DURATION}}"
+  ],
+  "SoundRecordingDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "HK",
+        "TW"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle",
+            "LanguageAndScriptCode" : "zh-hant"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle",
+            "LanguageAndScriptCode" : "zh-hant"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "DisplayArtist": [],
+      "LabelName": [
+        "Twenty Two Limited"
+      ],
+      "ResourceContributor": [],
+      "IndirectResourceContributor": [],
+      "ResourceReleaseDate": [
+        "2019"
+      ],
+      "PLine": [
+        {
+          "Year": [
+            "2019"
+          ],
+          "PLineText": [
+            "(P) 2019 twentytwomusic.com"
+          ]
+        }
+      ],
+      "SequenceNumber" : [
+        "1"
+      ],
+      "Genre": [
+        {
+          "GenreText": [
+            "Instrumental"
+          ]
+        },
+        {
+          "SubGenre": [
+            "Rock"
+          ]
+        }
+      ],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "TechnicalSoundRecordingDetails": [
+        {
+          "TechnicalResourceDetailsReference": [
+            "T1"
+          ],
+          "AudioCodecType": [
+            "WAV"
+          ],
+          "BitRate": [
+            "1411"
+          ],
+          "SamplingRate": [ 
+            {
+              "$": {
+                "UnitOfMeasure": "Hz"
+              },
+              "": [
+                "44100"
+              ]
+            }
+          ],
+          "BitsPerSample": [
+            "16"
+          ],
+          "IsPreview": [
+            "true"
+          ],
+          "PreviewDetails": [
+            {
+              "StartPoint" : [
+                "0"
+              ]
+            },
+            {
+              "Duration" : [
+                "PT30S"
+              ]
+            },
+            {
+              "ExpressionType" : [
+                "Instructive"
+              ]
+            }
+          ],
+          "File": [
+            {
+              "FileName": [
+                "{{BATCH_ID}}_0.wav"
+              ],
+              "FilePath": [
+                "resources/"
+              ],
+              "HashSum":[
+                {
+                  "HashSumAlgorithmType":[
+                    "MD5"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

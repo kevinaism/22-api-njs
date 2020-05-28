@@ -1,0 +1,13 @@
+{
+    "echo:ManifestMessage": {
+      "$": {
+        "MessageVersionId":"1.2",
+        "xs:schemaLocation":"http://ddex.net/xml/2011/echo/12 http://ddex.net/xml/2011/echo/12/echo.xsd", 
+        "xmlns:ernm":"http://ddex.net/xml/ern/341",
+        "xmlns:echo":"http://ddex.net/xml/2011/echo/12",
+        "xmlns:amep":"http://ddex.net/xml/2011/amep/12",
+        "xmlns:xs":"http://www.w3.org/2001/XMLSchema-instance",
+        "xmlns:ds":"http://www.w3.org/2000/09/xmldsig#"
+      }
+    }
+  }

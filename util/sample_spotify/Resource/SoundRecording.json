@@ -1,0 +1,97 @@
+{
+  "SoundRecordingType": [
+    "MusicalWorkSoundRecording"
+  ],
+  "SoundRecordingId": [
+    {
+      "ISRC": [
+        "{{ISRC}}"
+      ]
+    }
+  ],
+  "ResourceReference": [
+    "A1"
+  ],
+  "ReferenceTitle": [
+    {
+      "TitleText": [
+        "{{NAME}}"
+      ]
+    }
+  ],
+  "Duration": [
+    "{{DURATION}}"
+  ],
+  "SoundRecordingDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "WorldWide"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "DisplayArtist": [],
+    
+      "ResourceContributor": [],
+      "IndirectResourceContributor": [],
+      "ResourceReleaseDate": [
+        "2019"
+      ],
+      "PLine": [
+        {
+          "Year": [
+            "2019"
+          ],
+          "PLineCompany": [
+            "(P) 2019 twentytwomusic.com"
+          ],
+          "PLineText": [
+            "(P) 2019 twentytwomusic.com"
+          ]
+        }
+      ],
+      "Genre": [
+        {
+          "GenreText": [
+            "Instrumental"
+          ]
+        }
+      ],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "TechnicalSoundRecordingDetails": [
+        {
+          "TechnicalResourceDetailsReference": [
+            "T1"
+          ],
+          "File": [
+            {
+              "FileName": [
+                "{{BATCH_ID}}_0.wav"
+              ],
+              "FilePath": [
+                "resources/"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,18 @@ files:
     destination: /home/ec2-user/express-service
   - source: /node_modules
     destination: /home/ec2-user/express-service/node_modules
+  - source: /uploaders
+    destination: /home/ec2-user/express-service/uploaders
+  - source: /util
+    destination: /home/ec2-user/express-service/util
+  - source: /generators
+    destination: /home/ec2-user/express-service/generators
+  - source: /constant
+    destination: /home/ec2-user/express-service/constant
+  - source: /cert
+    destination: /home/ec2-user/express-service/cert
+  - source: /sample
+    destination: /home/ec2-user/express-service/sample
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies

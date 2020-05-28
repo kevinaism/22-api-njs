@@ -1,0 +1,248 @@
+{
+  "id": 405,
+  "createdTime": "2018-12-31T07:59:56.000Z",
+  "updatedTime": "2018-12-31T07:59:56.000Z",
+  "publishTime": "2018-12-31T07:59:56.000Z",
+  "status": "incomplete",
+  "orderId": "",
+  "cartItemId": "1546243198994",
+  "authorCategory": "solo",
+  "plan": "album",
+  "title": "HoCC First 2019 Album",
+  "type": "album",
+  "copyrightHolder": "Goomusic Ltd.",
+  "copyrightYear": 2018,
+  "recordLabel": "22ltd",
+  "autoGenIsrcCode": "true",
+  "artworkSrc": "https://assets.oneshop.cloud/384DF6C6-9E63-4CDD-BEDA-AEC7C6B1FA34.jpeg",
+  "artworkFilename": "SampleJPGImage_50kbmb.jpg",
+  "primaryGenre": "pgenre2",
+  "secondaryGenre": "sgenre2",
+  "language": "zh",
+  "hasConfirmedTracksLegalOwner": true,
+  "chargePerTrack": "medium",
+  "chargePerAlbum": "medium",
+  "customnChargePerAlbum": 0,
+  "distributeStoresType": "custom",
+  "selectedStores": [
+    "appleMusic",
+    "itunes",
+    "itunesRadio",
+    "spotify",
+    "kkbox",
+    "joox",
+    "moov"
+  ],
+  "useCustomUPCCode": "false",
+  "upcCode": false,
+  "isReRelease": false,
+  "previousReleaseDate": "",
+  "preReleaseEnabled": true,
+  "preReleaseDates": {
+    "spotify": "2019-01-12",
+    "joox": "2019-01-16",
+    "moov": "2019-01-24"
+  },
+  "releaseASAP": false,
+  "releaseDate": "2019-02-01",
+  "hasGeoRestriction": true,
+  "selectedRegions": [
+    "taiwan",
+    "china",
+    "singapore"
+  ],
+  "agreeTNC": true,
+  "confirmedInfoCorrect": true,
+  "artists": [
+    {
+      "key": "hocc",
+      "name": "HoCC",
+      "type": "main"
+    },
+    {
+      "key": "junno",
+      "name": "Junno Mak",
+      "type": "featuring"
+    },
+    {
+      "key": "mcJin",
+      "name": "Mc Jin",
+      "type": "featuring"
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Junior in Sleepy Electricity",
+      "key": "15462432608002",
+      "duration": 111.0465306122449,
+      "filename": "junior85_-_01_-_in_sleepy_electricity.mp3",
+      "copyrightHolder": "Goomusic Ltd.",
+      "copyrightYear": 2018,
+      "isrc": "@TODO: get ISRC from server",
+      "publishRightHolder": "Goomusic Ltd.",
+      "publishedYear": 2018,
+      "lyrics": "This is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\n\n\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\n\n\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.\nThis is lyrics.",
+      "src": "https://assets.oneshop.cloud/9C039490-0622-4E01-9582-6CEAF4A66D45.mpga",
+      "hasExplicitContent": false,
+      "artists": [
+        {
+          "key": "hocc",
+          "name": "HoCC",
+          "type": "main"
+        },
+        {
+          "key": "junno",
+          "name": "Junno Mak",
+          "type": "featuring"
+        }
+      ],
+      "composers": [
+        {
+          "key": "junno",
+          "name": "Junno Mak"
+        },
+        {
+          "key": "hocc",
+          "name": "HoCC"
+        }
+      ],
+      "lyrists": [
+        {
+          "key": "lamjack",
+          "name": "Jack Lam"
+        }
+      ],
+      "arrangers": [
+        {
+          "key": "marklui",
+          "name": "Mark Lui"
+        }
+      ],
+      "producers": [
+        {
+          "key": "chunheichiu",
+          "name": "Chun Hei Chiu"
+        },
+        {
+          "key": "15462433600430",
+          "name": "Mich Chan"
+        }
+      ]
+    },
+    {
+      "name": "Food For Animals",
+      "key": "15462432607991",
+      "duration": 104.48979591836735,
+      "filename": "Food_For_Animals_-_Elephants.mp3",
+      "copyrightHolder": "Goomusic Ltd.",
+      "copyrightYear": 2018,
+      "isrc": "@TODO: get ISRC from server",
+      "publishRightHolder": "Goomusic Ltd.",
+      "publishedYear": 2018,
+      "lyrics": "",
+      "src": "https://assets.oneshop.cloud/2EA788AA-2EB1-4779-B4CD-C3ABB52D2930.mpga",
+      "hasExplicitContent": false,
+      "artists": [
+        {
+          "key": "hocc",
+          "name": "HoCC",
+          "type": "main"
+        },
+        {
+          "key": "mcJin",
+          "name": "Mc Jin",
+          "type": "featuring"
+        }
+      ],
+      "composers": [
+        {
+          "key": "hocc",
+          "name": "HoCC"
+        }
+      ],
+      "lyrists": [
+        {
+          "key": "lamjack",
+          "name": "Jack Lam"
+        }
+      ],
+      "arrangers": [
+        {
+          "key": "marklui",
+          "name": "Mark Lui"
+        }
+      ],
+      "producers": [
+        {
+          "key": "chunheichiu",
+          "name": "Chun Hei Chiu"
+        }
+      ]
+    },
+    {
+      "name": "Friends or Whatever",
+      "key": "15462432607990",
+      "duration": 83.2261224489796,
+      "filename": "Friends_or_Whatever_-_10_-_Smoke_Floats.mp3",
+      "copyrightHolder": "Goomusic Ltd.",
+      "copyrightYear": 2018,
+      "isrc": "@TODO: get ISRC from server",
+      "publishRightHolder": "Goomusic Ltd.",
+      "publishedYear": 2018,
+      "lyrics": "This is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\n\n\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\n\n\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\n\n\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\nThis is lyrics\n\n\nThis is lyrics\nThis is lyrics",
+      "src": "https://assets.oneshop.cloud/BB5DA1A2-F15D-4ACD-AC4B-D6A03DD38268.mpga",
+      "hasExplicitContent": false,
+      "artists": [
+        {
+          "key": "hocc",
+          "name": "HoCC",
+          "type": "main"
+        },
+        {
+          "key": "junno",
+          "name": "Junno Mak",
+          "type": "featuring"
+        },
+        {
+          "key": "mcJin",
+          "name": "Mc Jin",
+          "type": "featuring"
+        }
+      ],
+      "composers": [
+        {
+          "key": "function toString() {"
+        },
+        {
+          "key": "    [native code]"
+        },
+        {
+          "key": "}",
+          "name": "Junno Mak"
+        }
+      ],
+      "lyrists": [
+        {
+          "key": "lamjack",
+          "name": "Jack Lam"
+        }
+      ],
+      "arrangers": [
+        {
+          "key": "marklui",
+          "name": "Mark Lui"
+        },
+        {
+          "key": "15462433136390",
+          "name": "Mich Chan"
+        }
+      ],
+      "producers": [
+        {
+          "key": "chunheichiu",
+          "name": "Chun Hei Chiu"
+        }
+      ]
+    }
+  ]
+}

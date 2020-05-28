@@ -1,0 +1,21 @@
+{
+  "$":{
+     "SequenceNumber": ""
+  },
+  "PartyName": [
+    {
+      "FullName": [
+        "{{COMPOSER}}"
+      ]
+    }
+  ],
+  "IndirectResourceContributorRole": [
+      {
+       "$":{
+          "Namespace" : "...",
+          "UserDefinedValue" : "Remixer"
+        },
+       "_":"UserDefined"
+    }
+  ]
+}

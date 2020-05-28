@@ -1,0 +1,130 @@
+{
+  "$": {
+    "IsMainRelease": "true"
+  },
+  "ReleaseId": [
+    {
+      "ICPN": [
+        {
+          "$":{
+            "IsEan":"false"
+          },
+          "_": "{{ICPN}}"
+        }
+      ]
+    }
+  ],
+  "ReleaseReference": [
+    "R0"
+  ],
+  "ReferenceTitle": [
+    {
+      "TitleText": [
+        "{{NAME}}"
+      ]
+    }
+  ],
+  "ReleaseResourceReferenceList": [
+    {
+      "ReleaseResourceReference": []
+    }
+  ],
+  "ReleaseType": [],
+  "ReleaseDetailsByTerritory": [
+    {
+      "TerritoryCode": [
+        "Worldwide"
+      ],
+      "DisplayArtistName": [
+        "{{ARTIST}}"
+      ],
+      "LabelName": [
+        "Twenty Two Limited"
+      ],
+      "Title": [
+        {
+          "$": {
+            "TitleType": "FormalTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        },
+        {
+          "$": {
+            "TitleType": "DisplayTitle"
+          },
+          "TitleText": [
+            "{{NAME}}"
+          ]
+        }
+      ],
+      "DisplayArtist": [],
+      "ParentalWarningType": [
+        "NotExplicit"
+      ],
+      "ResourceGroup": [
+        {
+          "ResourceGroup": [
+            {
+              "Title": [
+                {
+                  "$": {
+                    "TitleType": "GroupingTitle"
+                  },
+                  "TitleText": [
+                    "Component 1"
+                  ]
+                }
+              ],
+              "SequenceNumber": [
+                "1"
+              ],
+              "ResourceGroupContentItem": []
+            }
+          ],
+          "ResourceGroupContentItem": []
+        }
+      ],
+      "Genre": [
+        {
+          "GenreText": [
+            "Instrumental"
+          ]
+        }
+      ],
+      "PLine": [
+        {
+          "Year": [
+            "2019"
+          ],
+          "PLineCompany": [
+            "(P) 2019 twentytwomusic.com"
+          ],
+          "PLineText": [
+            "(P)2019 twentytwomusic.com"
+          ]
+        }
+      ],
+      "CLine": [
+        {
+          "Year": [
+            "2019"
+          ],
+          "CLineCompany": [
+            "(P) 2019 twentytwomusic.com"
+          ],
+          "CLineText": [
+            "(C) 2019 twentytwomusic.com"
+          ]
+        }
+      ],
+      "OriginalReleaseDate": [
+        "{{RELEASE_DATE}}"
+      ]
+    }
+  ],
+  "GlobalReleaseDate": [
+   "{{GlobalReleaseDate}}"
+  ]
+}

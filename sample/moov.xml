@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/37" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" MessageSchemaVersionId="ern/37" LanguageAndScriptCode="en" xs:schemaLocation="http://ddex.net/xml/ern/37 http://ddex.net/xml/ern/37/release-notification.xsd" ReleaseProfileVersionId="CommonReleaseType/12/AudioAlbum">
+   <MessageHeader>
+      <MessageThreadId>127585950</MessageThreadId>
+      <MessageId>127585950_20190108_185545</MessageId>
+      <MessageSender>
+         <PartyId>SamplePartyId</PartyId>
+         <PartyName>
+            <FullName>SampleParty</FullName>
+         </PartyName>
+      </MessageSender>
+      <MessageCreatedDateTime>2019-01-08T18:55:45+0800</MessageCreatedDateTime>
+      <MessageControlType>LiveMessage</MessageControlType>
+   </MessageHeader>
+   <UpdateIndicator>OriginalMessage</UpdateIndicator>
+   <ResourceList>
+      <SoundRecording LanguageAndScriptCode="zh-hans">
+         <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+         <SoundRecordingId>
+            <ISRC>CNZ511800451</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558123</ProprietaryId>
+         </SoundRecordingId>
+         <ResourceReference>A1</ResourceReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>灿烂不归处</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <LanguageOfPerformance>zh</LanguageOfPerformance>
+         <Duration>PT0H3M29S</Duration>
+         <SoundRecordingDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>灿烂不归处</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>灿烂不归处</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>燦爛不歸處</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>燦爛不歸處</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <IndirectResourceContributor SequenceNumber="1">
+               <PartyName>
+                  <FullName>石鑫</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <IndirectResourceContributor SequenceNumber="2">
+               <PartyName>
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <PLine LanguageAndScriptCode="en">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hans">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hant">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <SequenceNumber>1</SequenceNumber>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <TechnicalSoundRecordingDetails>
+               <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+               <AudioCodecType>WAV</AudioCodecType>
+               <BitRate>1411</BitRate>
+               <SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
+               <BitsPerSample>16</BitsPerSample>
+               <IsPreview>true</IsPreview>
+               <PreviewDetails>
+                  <StartPoint>0</StartPoint>
+                  <Duration>PT30S</Duration>
+                  <ExpressionType>Instructive</ExpressionType>
+               </PreviewDetails>
+               <File>
+                  <FileName>6971928840884_1_1.wav</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalSoundRecordingDetails>
+         </SoundRecordingDetailsByTerritory>
+      </SoundRecording>
+      <SoundRecording LanguageAndScriptCode="zh-hans">
+         <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+         <SoundRecordingId>
+            <ISRC>CNZ511800450</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558124</ProprietaryId>
+         </SoundRecordingId>
+         <ResourceReference>A2</ResourceReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>亲爱的</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <LanguageOfPerformance>zh</LanguageOfPerformance>
+         <Duration>PT0H3M59S</Duration>
+         <SoundRecordingDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>亲爱的</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>亲爱的</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>親愛的</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>親愛的</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <IndirectResourceContributor SequenceNumber="1">
+               <PartyName>
+                  <FullName>吴笑然</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <IndirectResourceContributor SequenceNumber="2">
+               <PartyName>
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <PLine LanguageAndScriptCode="en">
+               <Year>2018</Year>
+               <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hans">
+               <Year>2018</Year>
+               <PLineText>(P) 2018 太合麦田（天津）音乐有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hant">
+               <Year>2018</Year>
+               <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <SequenceNumber>2</SequenceNumber>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <TechnicalSoundRecordingDetails>
+               <TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+               <AudioCodecType>WAV</AudioCodecType>
+               <BitRate>1411</BitRate>
+               <SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
+               <BitsPerSample>16</BitsPerSample>
+               <IsPreview>true</IsPreview>
+               <PreviewDetails>
+                  <StartPoint>0</StartPoint>
+                  <Duration>PT30S</Duration>
+                  <ExpressionType>Instructive</ExpressionType>
+               </PreviewDetails>
+               <File>
+                  <FileName>6971928840884_1_2.wav</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalSoundRecordingDetails>
+         </SoundRecordingDetailsByTerritory>
+      </SoundRecording>
+      <SoundRecording LanguageAndScriptCode="zh-hans">
+         <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+         <SoundRecordingId>
+            <ISRC>CNZ511800449</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558120</ProprietaryId>
+         </SoundRecordingId>
+         <ResourceReference>A3</ResourceReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>另一个我：序</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <LanguageOfPerformance>zh</LanguageOfPerformance>
+         <Duration>PT0H1M12S</Duration>
+         <SoundRecordingDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：序</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：序</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：序</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：序</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <IndirectResourceContributor SequenceNumber="1">
+               <PartyName>
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <PLine LanguageAndScriptCode="en">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hans">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hant">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <SequenceNumber>3</SequenceNumber>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <TechnicalSoundRecordingDetails>
+               <TechnicalResourceDetailsReference>T3</TechnicalResourceDetailsReference>
+               <AudioCodecType>WAV</AudioCodecType>
+               <BitRate>1411</BitRate>
+               <SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
+               <BitsPerSample>16</BitsPerSample>
+               <IsPreview>true</IsPreview>
+               <PreviewDetails>
+                  <StartPoint>0</StartPoint>
+                  <Duration>PT30S</Duration>
+                  <ExpressionType>Instructive</ExpressionType>
+               </PreviewDetails>
+               <File>
+                  <FileName>6971928840884_1_3.wav</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalSoundRecordingDetails>
+         </SoundRecordingDetailsByTerritory>
+      </SoundRecording>
+      <SoundRecording LanguageAndScriptCode="zh-hans">
+         <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+         <SoundRecordingId>
+            <ISRC>CNZ511800448</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558121</ProprietaryId>
+         </SoundRecordingId>
+         <ResourceReference>A4</ResourceReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>另一个我：第一章</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <LanguageOfPerformance>zh</LanguageOfPerformance>
+         <Duration>PT0H4M6S</Duration>
+         <SoundRecordingDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：第一章</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：第一章</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：第一章</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：第一章</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <IndirectResourceContributor SequenceNumber="1">
+               <PartyName>
+                  <FullName>石鑫</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <IndirectResourceContributor SequenceNumber="2">
+               <PartyName>
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <PLine LanguageAndScriptCode="en">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hans">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hant">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <SequenceNumber>4</SequenceNumber>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <TechnicalSoundRecordingDetails>
+               <TechnicalResourceDetailsReference>T4</TechnicalResourceDetailsReference>
+               <AudioCodecType>WAV</AudioCodecType>
+               <BitRate>1411</BitRate>
+               <SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
+               <BitsPerSample>16</BitsPerSample>
+               <IsPreview>true</IsPreview>
+               <PreviewDetails>
+                  <StartPoint>0</StartPoint>
+                  <Duration>PT30S</Duration>
+                  <ExpressionType>Instructive</ExpressionType>
+               </PreviewDetails>
+               <File>
+                  <FileName>6971928840884_1_4.wav</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalSoundRecordingDetails>
+         </SoundRecordingDetailsByTerritory>
+      </SoundRecording>
+      <SoundRecording LanguageAndScriptCode="zh-hans">
+         <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+         <SoundRecordingId>
+            <ISRC>CNZ511800447</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558125</ProprietaryId>
+         </SoundRecordingId>
+         <ResourceReference>A5</ResourceReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>半颗心脏</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <LanguageOfPerformance>zh</LanguageOfPerformance>
+         <Duration>PT0H6M16S</Duration>
+         <SoundRecordingDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>半颗心脏</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>半颗心脏</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>半顆心臟</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>半顆心臟</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <IndirectResourceContributor SequenceNumber="1">
+               <PartyName>
+                  <FullName>吴笑然</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <IndirectResourceContributor SequenceNumber="2">
+               <PartyName>
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <PLine LanguageAndScriptCode="en">
+               <Year>2018</Year>
+               <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hans">
+               <Year>2018</Year>
+               <PLineText>(P) 2018 太合麦田（天津）音乐有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hant">
+               <Year>2018</Year>
+               <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <SequenceNumber>5</SequenceNumber>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <TechnicalSoundRecordingDetails>
+               <TechnicalResourceDetailsReference>T5</TechnicalResourceDetailsReference>
+               <AudioCodecType>WAV</AudioCodecType>
+               <BitRate>1411</BitRate>
+               <SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
+               <BitsPerSample>16</BitsPerSample>
+               <IsPreview>true</IsPreview>
+               <PreviewDetails>
+                  <StartPoint>0</StartPoint>
+                  <Duration>PT30S</Duration>
+                  <ExpressionType>Instructive</ExpressionType>
+               </PreviewDetails>
+               <File>
+                  <FileName>6971928840884_1_5.wav</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalSoundRecordingDetails>
+         </SoundRecordingDetailsByTerritory>
+      </SoundRecording>
+      <SoundRecording LanguageAndScriptCode="zh-hans">
+         <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+         <SoundRecordingId>
+            <ISRC>CNZ511800446</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558122</ProprietaryId>
+         </SoundRecordingId>
+         <ResourceReference>A6</ResourceReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>劫余</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <LanguageOfPerformance>zh</LanguageOfPerformance>
+         <Duration>PT0H3M1S</Duration>
+         <SoundRecordingDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>劫余</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>劫余</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="OriginalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>劫餘</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>劫餘</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <IndirectResourceContributor SequenceNumber="1">
+               <PartyName>
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+            </IndirectResourceContributor>
+            <PLine LanguageAndScriptCode="en">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hans">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+            </PLine>
+            <PLine LanguageAndScriptCode="zh-hant">
+               <Year>2019</Year>
+               <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+            </PLine>
+            <SequenceNumber>6</SequenceNumber>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <TechnicalSoundRecordingDetails>
+               <TechnicalResourceDetailsReference>T6</TechnicalResourceDetailsReference>
+               <AudioCodecType>WAV</AudioCodecType>
+               <BitRate>1411</BitRate>
+               <SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
+               <BitsPerSample>16</BitsPerSample>
+               <IsPreview>true</IsPreview>
+               <PreviewDetails>
+                  <StartPoint>0</StartPoint>
+                  <Duration>PT30S</Duration>
+                  <ExpressionType>Instructive</ExpressionType>
+               </PreviewDetails>
+               <File>
+                  <FileName>6971928840884_1_6.wav</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalSoundRecordingDetails>
+         </SoundRecordingDetailsByTerritory>
+      </SoundRecording>
+      <Image>
+         <ImageType>FrontCoverImage</ImageType>
+         <ImageId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">IMAGE_COVER_6971928840884</ProprietaryId>
+         </ImageId>
+         <ResourceReference>A7</ResourceReference>
+         <ImageDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalImageDetails>
+               <TechnicalResourceDetailsReference>T7</TechnicalResourceDetailsReference>
+               <ImageCodecType>JPEG</ImageCodecType>
+               <File>
+                  <FileName>6971928840884.jpg</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalImageDetails>
+         </ImageDetailsByTerritory>
+      </Image>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_1</ProprietaryId>
+         </TextId>
+         <ResourceReference>A8</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T8</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_1.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_2</ProprietaryId>
+         </TextId>
+         <ResourceReference>A9</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T9</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_2.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_3</ProprietaryId>
+         </TextId>
+         <ResourceReference>A10</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T10</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_3.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_4</ProprietaryId>
+         </TextId>
+         <ResourceReference>A11</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T11</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_4.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_5</ProprietaryId>
+         </TextId>
+         <ResourceReference>A12</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T12</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_5.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_6</ProprietaryId>
+         </TextId>
+         <ResourceReference>A13</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T13</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_6.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_7</ProprietaryId>
+         </TextId>
+         <ResourceReference>A14</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T14</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_7.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+      <Text>
+         <TextType>LyricText</TextType>
+         <TextId>
+            <ProprietaryId Namespace="DPID:SamplePartyId">Lyric_id_8</ProprietaryId>
+         </TextId>
+         <ResourceReference>A15</ResourceReference>
+         <TextDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <TechnicalTextDetails>
+               <TechnicalResourceDetailsReference>T15</TechnicalResourceDetailsReference>
+               <TextCodecType>DOCX</TextCodecType>
+               <File>
+                  <FileName>6971928840884_1_8.docx</FileName>
+                  <FilePath>resources/</FilePath>
+                  <HashSum>
+                     <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                  </HashSum>
+               </File>
+            </TechnicalTextDetails>
+         </TextDetailsByTerritory>
+      </Text>
+   </ResourceList>
+   <ReleaseList>
+      <Release LanguageAndScriptCode="zh-hans" IsMainRelease="true">
+         <ReleaseId>
+            <ICPN IsEan="false">6971928840884</ICPN>
+            <ProprietaryId Namespace="DPID:SamplePartyId">P10002726462</ProprietaryId>
+         </ReleaseId>
+         <ReleaseReference>R0</ReleaseReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>鸟与城市</TitleText>
+            <SubTitle>普通版</SubTitle>
+         </ReferenceTitle>
+         <ReleaseResourceReferenceList>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A7</ReleaseResourceReference>
+         </ReleaseResourceReferenceList>
+         <ReleaseType>EP</ReleaseType>
+         <ReleaseDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <DisplayArtistName LanguageAndScriptCode="en">Silent Speech</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hans">沉默演讲（Silent Speech）</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hant">沉默演講</DisplayArtistName>
+            <LabelName LanguageAndScriptCode="en">赤瞳音樂/太合麥田（天津）音樂有限公司</LabelName>
+            <LabelName LanguageAndScriptCode="zh-hans">赤瞳音乐/太合麦田（天津）音乐有限公司</LabelName>
+            <LabelName LanguageAndScriptCode="zh-hant">赤瞳音樂/太合麥田（天津）音樂有限公司</LabelName>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>鸟与城市</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>鸟与城市</TitleText>
+            </Title>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>鳥與城市</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>鳥與城市</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <ResourceGroup>
+               <ResourceGroup>
+                  <SequenceNumber>1</SequenceNumber>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>1</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A8</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A9</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>2</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A10</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A11</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>3</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                  </ResourceGroupContentItem>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>4</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A12</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A13</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>5</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A14</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A15</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>6</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                  </ResourceGroupContentItem>
+               </ResourceGroup>
+               <ResourceGroupContentItem>
+                  <ResourceType>Image</ResourceType>
+                  <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A7</ReleaseResourceReference>
+               </ResourceGroupContentItem>
+            </ResourceGroup>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+            <OriginalReleaseDate>2019-01-10</OriginalReleaseDate>
+            <Synopsis>考察城市里的鸟，我们猜测：习惯了混凝土的巢，面包屑饮食配方，它们中的大多数或许已无须为寒冬迁徙。但也可能，在未来的一天飞走，天和海空成为新的家。
+            从低屋檐飞到越来越高的屋檐，今天在那根电缆上的小聚，5月可能转移到一个渣土堆上。当宏伟的更迭迫近，飞行在城市上空的鸟群挥动双翅，它们和我们一样——专心致志的活着。高楼与苍穹间，我们都拥挤着，与周围和自己周旋，无论眼前的嘈杂亦或遥远的神秘，无论接受亦或赠予，矛盾覆盖矛盾，我们距离意义和幸福的路程一样漫长。
+            成军十载，沉默演讲首张EP《鸟与城市》正式释出。爱，幻想，选择，自我意识……当这些身体里不可言说的内部能量聚拢，沉默之下，释放的将是这些鲜活的音乐。</Synopsis>
+         </ReleaseDetailsByTerritory>
+         <Duration>PT0H22M3S</Duration>
+         <PLine LanguageAndScriptCode="en">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hans">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hant">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <CLine LanguageAndScriptCode="en">
+            <Year>2019</Year>
+            <CLineText>(C) 2019 太合麥田（天津）音樂有限公司</CLineText>
+         </CLine>
+         <CLine LanguageAndScriptCode="zh-hans">
+            <Year>2019</Year>
+            <CLineText>(C) 2019 太合麦田（天津）音乐有限公司</CLineText>
+         </CLine>
+         <CLine LanguageAndScriptCode="zh-hant">
+            <Year>2019</Year>
+            <CLineText>(C) 2019 太合麥田（天津）音樂有限公司</CLineText>
+         </CLine>
+      </Release>
+      <Release LanguageAndScriptCode="zh-hans">
+         <ReleaseId>
+            <ISRC>CNZ511800451</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558123</ProprietaryId>
+         </ReleaseId>
+         <ReleaseReference>R1</ReleaseReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>灿烂不归处</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <ReleaseResourceReferenceList>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A8</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A9</ReleaseResourceReference>
+         </ReleaseResourceReferenceList>
+         <ReleaseType>TrackRelease</ReleaseType>
+         <ReleaseDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <DisplayArtistName LanguageAndScriptCode="en">Silent Speech</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hans">沉默演讲（Silent Speech）</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hant">沉默演講</DisplayArtistName>
+            <LabelName LanguageAndScriptCode="zh-hans">赤瞳音乐/太合麦田（天津）音乐有限公司</LabelName>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>灿烂不归处</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>灿烂不归处</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>燦爛不歸處</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>燦爛不歸處</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <ResourceGroup>
+               <ResourceGroup>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>1</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A8</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A9</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+               </ResourceGroup>
+            </ResourceGroup>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+         </ReleaseDetailsByTerritory>
+         <PLine LanguageAndScriptCode="en">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hans">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hant">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+      </Release>
+      <Release LanguageAndScriptCode="zh-hans">
+         <ReleaseId>
+            <ISRC>CNZ511800450</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558124</ProprietaryId>
+         </ReleaseId>
+         <ReleaseReference>R2</ReleaseReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>亲爱的</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <ReleaseResourceReferenceList>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A10</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A11</ReleaseResourceReference>
+         </ReleaseResourceReferenceList>
+         <ReleaseType>TrackRelease</ReleaseType>
+         <ReleaseDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <DisplayArtistName LanguageAndScriptCode="en">Silent Speech</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hans">沉默演讲（Silent Speech）</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hant">沉默演講</DisplayArtistName>
+            <LabelName LanguageAndScriptCode="zh-hans">赤瞳音乐/太合麦田（天津）音乐有限公司</LabelName>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>亲爱的</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>亲爱的</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>親愛的</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>親愛的</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <ResourceGroup>
+               <ResourceGroup>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>1</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A10</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A11</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+               </ResourceGroup>
+            </ResourceGroup>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+         </ReleaseDetailsByTerritory>
+         <PLine LanguageAndScriptCode="en">
+            <Year>2018</Year>
+            <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hans">
+            <Year>2018</Year>
+            <PLineText>(P) 2018 太合麦田（天津）音乐有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hant">
+            <Year>2018</Year>
+            <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+      </Release>
+      <Release LanguageAndScriptCode="zh-hans">
+         <ReleaseId>
+            <ISRC>CNZ511800449</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558120</ProprietaryId>
+         </ReleaseId>
+         <ReleaseReference>R3</ReleaseReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>另一个我：序</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <ReleaseResourceReferenceList>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+         </ReleaseResourceReferenceList>
+         <ReleaseType>TrackRelease</ReleaseType>
+         <ReleaseDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <DisplayArtistName LanguageAndScriptCode="en">Silent Speech</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hans">沉默演讲（Silent Speech）</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hant">沉默演講</DisplayArtistName>
+            <LabelName LanguageAndScriptCode="zh-hans">赤瞳音乐/太合麦田（天津）音乐有限公司</LabelName>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：序</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：序</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：序</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：序</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <ResourceGroup>
+               <ResourceGroup>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>1</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                  </ResourceGroupContentItem>
+               </ResourceGroup>
+            </ResourceGroup>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+         </ReleaseDetailsByTerritory>
+         <PLine LanguageAndScriptCode="en">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hans">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hant">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+      </Release>
+      <Release LanguageAndScriptCode="zh-hans">
+         <ReleaseId>
+            <ISRC>CNZ511800448</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558121</ProprietaryId>
+         </ReleaseId>
+         <ReleaseReference>R4</ReleaseReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>另一个我：第一章</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <ReleaseResourceReferenceList>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A12</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A13</ReleaseResourceReference>
+         </ReleaseResourceReferenceList>
+         <ReleaseType>TrackRelease</ReleaseType>
+         <ReleaseDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <DisplayArtistName LanguageAndScriptCode="en">Silent Speech</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hans">沉默演讲（Silent Speech）</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hant">沉默演講</DisplayArtistName>
+            <LabelName LanguageAndScriptCode="zh-hans">赤瞳音乐/太合麦田（天津）音乐有限公司</LabelName>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：第一章</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>另一个我：第一章</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：第一章</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>另一個我：第一章</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <ResourceGroup>
+               <ResourceGroup>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>1</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A12</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A13</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+               </ResourceGroup>
+            </ResourceGroup>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+         </ReleaseDetailsByTerritory>
+         <PLine LanguageAndScriptCode="en">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hans">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hant">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+      </Release>
+      <Release LanguageAndScriptCode="zh-hans">
+         <ReleaseId>
+            <ISRC>CNZ511800447</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558125</ProprietaryId>
+         </ReleaseId>
+         <ReleaseReference>R5</ReleaseReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>半颗心脏</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <ReleaseResourceReferenceList>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A14</ReleaseResourceReference>
+            <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A15</ReleaseResourceReference>
+         </ReleaseResourceReferenceList>
+         <ReleaseType>TrackRelease</ReleaseType>
+         <ReleaseDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <DisplayArtistName LanguageAndScriptCode="en">Silent Speech</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hans">沉默演讲</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hant">沉默演講</DisplayArtistName>
+            <LabelName LanguageAndScriptCode="zh-hans">赤瞳音乐/太合麦田（天津）音乐有限公司</LabelName>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>半颗心脏</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>半颗心脏</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>半顆心臟</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>半顆心臟</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <ResourceGroup>
+               <ResourceGroup>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>1</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A14</LinkedReleaseResourceReference>
+                     <LinkedReleaseResourceReference LinkDescription="Lyrics">A15</LinkedReleaseResourceReference>
+                  </ResourceGroupContentItem>
+               </ResourceGroup>
+            </ResourceGroup>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+         </ReleaseDetailsByTerritory>
+         <PLine LanguageAndScriptCode="en">
+            <Year>2018</Year>
+            <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hans">
+            <Year>2018</Year>
+            <PLineText>(P) 2018 太合麦田（天津）音乐有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hant">
+            <Year>2018</Year>
+            <PLineText>(P) 2018 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+      </Release>
+      <Release LanguageAndScriptCode="zh-hans">
+         <ReleaseId>
+            <ISRC>CNZ511800446</ISRC>
+            <ProprietaryId Namespace="DPID:SamplePartyId">T10049558122</ProprietaryId>
+         </ReleaseId>
+         <ReleaseReference>R6</ReleaseReference>
+         <ReferenceTitle LanguageAndScriptCode="zh-hans">
+            <TitleText>劫余</TitleText>
+            <SubTitle />
+         </ReferenceTitle>
+         <ReleaseResourceReferenceList>
+            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+         </ReleaseResourceReferenceList>
+         <ReleaseType>TrackRelease</ReleaseType>
+         <ReleaseDetailsByTerritory>
+            <TerritoryCode>Worldwide</TerritoryCode>
+            <DisplayArtistName LanguageAndScriptCode="en">Silent Speech</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hans">沉默演讲（Silent Speech）</DisplayArtistName>
+            <DisplayArtistName LanguageAndScriptCode="zh-hant">沉默演講</DisplayArtistName>
+            <LabelName LanguageAndScriptCode="zh-hans">赤瞳音乐/太合麦田（天津）音乐有限公司</LabelName>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>劫余</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hans">
+               <TitleText>劫余</TitleText>
+               <SubTitle />
+            </Title>
+            <Title TitleType="FormalTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>劫餘</TitleText>
+            </Title>
+            <Title TitleType="DisplayTitle" LanguageAndScriptCode="zh-hant">
+               <TitleText>劫餘</TitleText>
+            </Title>
+            <DisplayArtist SequenceNumber="1">
+               <ProprietaryId Namespace="DPID:SamplePartyId">A10003560971</ProprietaryId>
+               <PartyName LanguageAndScriptCode="en">
+                  <FullName>Silent Speech</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hans">
+                  <FullName>沉默演讲（Silent Speech）</FullName>
+               </PartyName>
+               <PartyName LanguageAndScriptCode="zh-hant">
+                  <FullName>沉默演講</FullName>
+               </PartyName>
+               <ArtistRole>MainArtist</ArtistRole>
+            </DisplayArtist>
+            <ParentalWarningType>NotExplicit</ParentalWarningType>
+            <ResourceGroup>
+               <ResourceGroup>
+                  <ResourceGroupContentItem>
+                     <SequenceNumber>1</SequenceNumber>
+                     <ResourceType>SoundRecording</ResourceType>
+                     <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                  </ResourceGroupContentItem>
+               </ResourceGroup>
+            </ResourceGroup>
+            <Genre>
+               <GenreText>摇滚</GenreText>
+               <SubGenre>摇滚</SubGenre>
+            </Genre>
+         </ReleaseDetailsByTerritory>
+         <PLine LanguageAndScriptCode="en">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hans">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麦田（天津）音乐有限公司</PLineText>
+         </PLine>
+         <PLine LanguageAndScriptCode="zh-hant">
+            <Year>2019</Year>
+            <PLineText>(P) 2019 太合麥田（天津）音樂有限公司</PLineText>
+         </PLine>
+      </Release>
+   </ReleaseList>
+   <DealList>
+      <ReleaseDeal>
+         <DealReleaseReference>R0</DealReleaseReference>
+         <Deal>
+            <DealTerms>
+               <CommercialModelType>SubscriptionModel</CommercialModelType>
+               <Usage>
+                  <UseType>OnDemandStream</UseType>
+               </Usage>
+               <TerritoryCode>HK</TerritoryCode>
+               <ValidityPeriod>
+                  <StartDateTime>2019-01-10T10:00:00</StartDateTime>
+               </ValidityPeriod>
+            </DealTerms>
+         </Deal>
+      </ReleaseDeal>
+      <ReleaseDeal>
+         <DealReleaseReference>R1</DealReleaseReference>
+         <Deal>
+            <DealTerms>
+               <CommercialModelType>SubscriptionModel</CommercialModelType>
+               <Usage>
+                  <UseType>OnDemandStream</UseType>
+               </Usage>
+               <TerritoryCode>HK</TerritoryCode>
+               <ValidityPeriod>
+                  <StartDateTime>2019-01-10T10:00:00</StartDateTime>
+               </ValidityPeriod>
+            </DealTerms>
+         </Deal>
+      </ReleaseDeal>
+      <ReleaseDeal>
+         <DealReleaseReference>R2</DealReleaseReference>
+         <Deal>
+            <DealTerms>
+               <CommercialModelType>SubscriptionModel</CommercialModelType>
+               <Usage>
+                  <UseType>OnDemandStream</UseType>
+               </Usage>
+               <TerritoryCode>HK</TerritoryCode>
+               <ValidityPeriod>
+                  <StartDateTime>2019-01-10T10:00:00</StartDateTime>
+               </ValidityPeriod>
+            </DealTerms>
+         </Deal>
+      </ReleaseDeal>
+      <ReleaseDeal>
+         <DealReleaseReference>R3</DealReleaseReference>
+         <Deal>
+            <DealTerms>
+               <CommercialModelType>SubscriptionModel</CommercialModelType>
+               <Usage>
+                  <UseType>OnDemandStream</UseType>
+               </Usage>
+               <TerritoryCode>HK</TerritoryCode>
+               <ValidityPeriod>
+                  <StartDateTime>2019-01-10T10:00:00</StartDateTime>
+               </ValidityPeriod>
+            </DealTerms>
+         </Deal>
+      </ReleaseDeal>
+      <ReleaseDeal>
+         <DealReleaseReference>R4</DealReleaseReference>
+         <Deal>
+            <DealTerms>
+               <CommercialModelType>SubscriptionModel</CommercialModelType>
+               <Usage>
+                  <UseType>OnDemandStream</UseType>
+               </Usage>
+               <TerritoryCode>HK</TerritoryCode>
+               <ValidityPeriod>
+                  <StartDateTime>2019-01-10T10:00:00</StartDateTime>
+               </ValidityPeriod>
+            </DealTerms>
+         </Deal>
+      </ReleaseDeal>
+      <ReleaseDeal>
+         <DealReleaseReference>R5</DealReleaseReference>
+         <Deal>
+            <DealTerms>
+               <CommercialModelType>SubscriptionModel</CommercialModelType>
+               <Usage>
+                  <UseType>OnDemandStream</UseType>
+               </Usage>
+               <TerritoryCode>HK</TerritoryCode>
+               <ValidityPeriod>
+                  <StartDateTime>2019-01-10T10:00:00</StartDateTime>
+               </ValidityPeriod>
+            </DealTerms>
+         </Deal>
+      </ReleaseDeal>
+      <ReleaseDeal>
+         <DealReleaseReference>R6</DealReleaseReference>
+         <Deal>
+            <DealTerms>
+               <CommercialModelType>SubscriptionModel</CommercialModelType>
+               <Usage>
+                  <UseType>OnDemandStream</UseType>
+               </Usage>
+               <TerritoryCode>HK</TerritoryCode>
+               <ValidityPeriod>
+                  <StartDateTime>2019-01-10T10:00:00</StartDateTime>
+               </ValidityPeriod>
+            </DealTerms>
+         </Deal>
+      </ReleaseDeal>
+   </DealList>
+</ern:NewReleaseMessage>

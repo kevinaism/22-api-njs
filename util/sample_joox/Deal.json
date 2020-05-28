@@ -1,0 +1,64 @@
+{
+  "ReleaseDeal": [
+    {
+      "DealReleaseReference": [
+        
+      ],
+      "Deal": [
+        {
+          "DealTerms": [
+            {
+              "CommercialModelType": [
+                "SubscriptionModel"
+              ],
+              "Usage": [
+                {
+                  "UseType": [
+                    "OnDemandStream",
+                    "TetheredDownload"
+                  ]
+                }
+              ],
+              "TerritoryCode": [
+                "Worldwide"
+              ],
+              "ValidityPeriod": [
+                {
+                  "StartDate": [
+                    "{{RELEASE_DATE}}"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "DealTerms": [
+            {
+              "CommercialModelType": [
+                "PayAsYouGoModel"
+              ],
+              "Usage": [
+                {
+                  "UseType": [
+                    "PermanentDownload"
+                  ]
+                }
+              ],
+              "TerritoryCode": [
+                "Worldwide"
+              ],
+              "ValidityPeriod": [
+                {
+                  "StartDate": [
+                    "{{RELEASE_DATE}}"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "korea":"KR",
+  "taiwan" : "TW",
+  "china" : "CN",
+  "singapore" : "SG",
+  "japan" : "JP",
+  "usa" : "US",
+  "hong kong" : "HK",
+  "": "Worldwide"
+}
