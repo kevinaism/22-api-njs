@@ -25,7 +25,7 @@ const CONF = {
     OCS             : {
         endpoint            : `https://api.oneshop.cloud`,//!/^local$/i.test(process.env.MODE || 'local') ? `https://api.oneshop.cloud` : `http://ec2-13-251-89-201.ap-southeast-1.compute.amazonaws.com`,
         token               : {
-            id  : 'lkAkCJnEJ51owG7WPpqURhKrkt9LCTV3',   // 5 or 9wjB9wJh0T45Y20HftCEQNrkXGIIO1aJ 
+            id  : 'rOwn1DzwvDdIaq785WLKqntaEfI0xFP6',   // 5 or 9wjB9wJh0T45Y20HftCEQNrkXGIIO1aJ 
                                                         // or rOwn1DzwvDdIaq785WLKqntaEfI0xFP6(yeungpete) 
                                                         // or ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf(Infogoomusic)
                                                         // or ml6pXZIGmWCzduhDvaVQUAHfPryLIL96(jacqueline.liu)
@@ -119,7 +119,7 @@ app.route('/release').post((req, res) => {
             '/batch_' + batchId,
             '/batch_' + batchId + '/' + batchId,
             '/batch_' + batchId + '/' + batchId + '/resources'
-        ].forEach(path => !fs.existsSync(dir + path) && fs.mkdirSync(dir + path));
+        ].forEach(path => fs.mkdirSync(dir + path,err =>{}));
         // log
         console.log('folder for album:' + sourceId + ' created.');
         // create folder
