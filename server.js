@@ -113,16 +113,17 @@ app.route('/release').post((req, res) => {
     // ----------------- setup tmp env ----------------- //
     new promise((resolve, reject) => {
         telegram_bot.sendMessages('Create tmp folders',batchId);
-      console.log('----------Create tmp folders----------');
+        console.log('----------Create tmp folders----------');
         // create root dir
         [
             '',
             '/batch_' + batchId,
             '/batch_' + batchId + '/' + batchId,
             '/batch_' + batchId + '/' + batchId + '/resources'
-        ].forEach(path => fs.mkdirSync(dir + path,err =>{}));
+        ].forEach(path => !fs.existsSync(dir + path) && fs.mkdirSync(dir + path));
         // log
         console.log('folder for album:' + sourceId + ' created.');
+        telegram_bot.sendMessages('folder for album:' + sourceId + ' created.',batchId);
         // create folder
         resolve();
     })
