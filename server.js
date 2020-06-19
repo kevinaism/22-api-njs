@@ -112,6 +112,7 @@ app.route('/release').post((req, res) => {
     var dir = './tmp/' + sourceId;
     // ----------------- setup tmp env ----------------- //
     new promise((resolve, reject) => {
+        telegram_bot.sendMessages('Create tmp folders',batchId);
       console.log('----------Create tmp folders----------');
         // create root dir
         [
@@ -135,7 +136,7 @@ app.route('/release').post((req, res) => {
             pass: CONF.OCS.token.key
         }
     }, (error, response, body) => {
-
+        telegram_bot.sendMessages('Get album data from OCS',batchId);
         console.log('----------Get album data from OCS----------');
        
         //console.log(response);
