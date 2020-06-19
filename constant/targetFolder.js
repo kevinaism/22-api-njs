@@ -19,6 +19,7 @@
     'Tat Flip'                      :'tt_tat_flip',
     '光復香港唱片公司'                 :'tt_goomusic',
     'Mosic Music'                   :'tt_mosic_music',
+    'Mosic Music '                   :'tt_mosic_music',
     'Rockmui Ltd.'                  :'tt_rockmui_limited',
     'Lowland Pianist Limited'       :'tt_lowland_pianist_limited'            
 }
