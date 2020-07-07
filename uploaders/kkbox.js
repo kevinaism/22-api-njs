@@ -87,6 +87,7 @@ module.exports = function(platform, dir, batchId, upc, xmlWrapper, files) {
                     remote: platform.remoteDir + '/' + batchId + '/BatchComplete_' + batchId + '.complete'
                 });
                 console.log(files);
+                // return;
                 // ssh2
                 var conn = new Client();
                 conn.on('ready', () => conn.sftp(function(sftpErr, sftp) {
