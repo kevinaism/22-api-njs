@@ -12,6 +12,7 @@
     'People Mountain People Sea'    :'tt_people_mountain_people_sea',
     'One Cool Music'                :'tt_one_cool_music',
     ''                              :'tt_one_cool_music',
+    'One Cool Music (HK) Limited'  :'tt_one_cool_music',
     'One Cool Music (HK) Limited '  :'tt_one_cool_music',
     '19Hz'                          :'tt_19hz',
     '19Hz '                         :'tt_19hz',
