@@ -35,11 +35,11 @@ const CONF = {
     },
     S3              : {
         accessKeyId         : `AKIAI3MQOTFJ6MZ53O6A`,
-        secretAccessKey     : `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`,
+        secretAccessKey     : `4cmX/rFLb3+zzwnZzgPbKtUX70EsCU5X7sAXjk35`,  
         region              : `ap-southeast-1`
     }
 };
-
+//
 
 const ADMINS = [
     'lucas@twentytwomusic.com',
