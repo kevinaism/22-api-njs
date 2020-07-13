@@ -43,6 +43,8 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     Message.MessageCreatedDateTime[0]=new Date().toISOString();
     // set PARTY DETAIL
     MessageHeader.push(Message);
+    console.log("Message");
+    console.log(Message);
     xmlWrapper["ern:NewReleaseMessage"].MessageHeader = MessageHeader;
     /* end MessageHeader */
 
