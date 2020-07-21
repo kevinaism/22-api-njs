@@ -89,6 +89,7 @@ module.exports = function(platform, dir, batchId, upc, xmlWrapper, files) {
                 });
                 console.log(files);
                 
+                
                 // ssh2
                 var conn = new Client();
                 conn.on('ready', () => conn.sftp(function(sftpErr, sftp) {
