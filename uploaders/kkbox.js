@@ -3,7 +3,8 @@ const fs            = require('fs');
 const ncp           = require('ncp').ncp;
 const xml2js        = require('xml2js');
 var Client          = require('ssh2').Client;
-const telegram_bot  = require('../util/telegramBot.js')
+const telegram_bot  = require('../util/telegramBot.js');
+const { relativeTimeRounding } = require('moment');
 
 
 const CreateFolders = function(sftp, folders, batchId, cb) {
@@ -87,7 +88,7 @@ module.exports = function(platform, dir, batchId, upc, xmlWrapper, files) {
                     remote: platform.remoteDir + '/' + batchId + '/BatchComplete_' + batchId + '.complete'
                 });
                 console.log(files);
-                 
+                
                 // ssh2
                 var conn = new Client();
                 conn.on('ready', () => conn.sftp(function(sftpErr, sftp) {
