@@ -169,12 +169,12 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
         DisplayArtist.PartyName[0].FullName[0]=name;
         DisplayArtist.ArtistRole[0]="FeaturedArtist";
       }
-
-      if (AlbumRelease.ReleaseDetailsByTerritory[0].DisplayArtistName == "{{ARTIST}}")
-        AlbumRelease.ReleaseDetailsByTerritory[0].DisplayArtistName = "";
-
       AlbumRelease.ReleaseDetailsByTerritory[0].DisplayArtist.push(DisplayArtist);
     }
+
+    if (AlbumRelease.ReleaseDetailsByTerritory[0].DisplayArtistName == "{{ARTIST}}")
+        AlbumRelease.ReleaseDetailsByTerritory[0].DisplayArtistName = 'Various Artists';
+
     ReleaseList[0].Release.push(AlbumRelease);
 
     for(var key in data.album.tracks) {
@@ -285,7 +285,7 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
         }
 
         if (TrackRelease.ReleaseDetailsByTerritory[0].DisplayArtistName == "{{ARTIST}}")
-          TrackRelease.ReleaseDetailsByTerritory[0].DisplayArtistName = "";
+          TrackRelease.ReleaseDetailsByTerritory[0].DisplayArtistName = artists[0].name;
         //set COMPOSERS
         if (composers && composers.length) {
           for(var key in composers) {

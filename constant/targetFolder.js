@@ -22,7 +22,8 @@
     'Mosic Music'                   :'tt_mosic_music',
     'Mosic Music '                   :'tt_mosic_music',
     'Rockmui Ltd.'                  :'tt_rockmui_limited',
-    'Lowland Pianist Limited'       :'tt_lowland_pianist_limited'            
+    'Lowland Pianist Limited'       :'tt_lowland_pianist_limited',
+    'GDJYB Independent'             :'tt_lose_control_company'           
 }
 
 module.exports = Object.freeze({
