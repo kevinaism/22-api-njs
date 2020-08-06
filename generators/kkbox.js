@@ -85,6 +85,7 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     console.log(imageName);
     let isrc        = data.album.cartItemId;
     let name        = data.album.title;
+    // let regions     = ["HK","TW","MY","SG"]
     let regions     = data.album.selectedRegions|| 'Worldwide';
     let genre       = data.album.primaryGenre;
     let releaseType = data.album.type;
@@ -258,6 +259,8 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
         //=Image.ImageDetailsByTerritory[0].TerritoryCode
         =AlbumRelease.ReleaseDetailsByTerritory[0].TerritoryCode
         =TrackRelease.ReleaseDetailsByTerritory[0].TerritoryCode
+        =Deal.ReleaseDeal[0].Deal[0].DealTerms[0].TerritoryCode
+        =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].TerritoryCode
         =regions;
         //set Genre
         SoundRecording.SoundRecordingDetailsByTerritory[0].Genre[0].GenreText
