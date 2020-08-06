@@ -79,7 +79,7 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     }
 
     let upcCode     = data.album.upcCode || '1234567890';
-
+  
     let imageName   = upcCode+'.'+data.album.artworkSrc.split('.').pop()
     let imageRef    = (data.album.tracks.length+1).toString()
     console.log(imageName);
