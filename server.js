@@ -114,7 +114,7 @@ app.route('/release').post((req, res) => {
     if(!fs.existsSync('./tmp')){
         fs.mkdirSync('./tmp')
     }
-    return;
+    
     // ----------------- setup tmp env ----------------- //
     new promise((resolve, reject) => {
         telegram_bot.sendMessages('Create tmp folders',batchId);
