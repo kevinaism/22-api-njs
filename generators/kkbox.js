@@ -89,8 +89,8 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     let regions     = data.album.selectedRegions|| 'Worldwide';
     let genre       = data.album.primaryGenre;
     let releaseType = data.album.type;
-    // let releaseDate = data.album.releaseASAP == 'true' ? new Date().toISOString() : data.album.releaseDate;
-    let releaseDate = data.album.previousReleaseDate;
+    let releaseDate = data.album.releaseASAP == 'true' ? new Date().toISOString() : data.album.releaseDate;
+    // let releaseDate = data.album.previousReleaseDate;
     let releaseTime = ((data.album.releaseTime || '').split(':') || []).filter(t => t);
     let artists     = data.album.artists;
 
