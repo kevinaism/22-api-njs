@@ -292,7 +292,6 @@ app.route('/release').post((req, res) => {
     // ----------------- /get source info ----------------- //
     // got info, gen ddex xml for each track
     .then(() => new promise((resolve, reject) => {
-
         console.log('----------Download album data from OCS----------');
         // console.log('data.album.artworkSrc:'+data.album.artworkSrc);
         telegram_bot.sendMessages(data.album.artworkSrc.split('/').pop(),batchId);
@@ -311,16 +310,17 @@ app.route('/release').post((req, res) => {
         if (!sourceNames.length) {
             // next process
             resolve();
-        } else {
+        }
+        else {
             (function extract(i) {
                 // get info
                 var source = sources[sourceNames[i]];
-
                 // all done
                 if (!source) {
                     // next process
                     resolve();
-                } else { 
+                }
+                else {
                     // get source extension
                     //console.log('source:'+JSON.stringify(source));
                     const ext =  source.src == null ? '':source.src.split('.').pop();
@@ -331,8 +331,10 @@ app.route('/release').post((req, res) => {
                     // download track's sources
                     source.src = source.src || '';
                     console.log('source.src:'+JSON.stringify(source.src));
+                    telegram_bot.sendMessages('trying to download - ' + path + '.');
                     source.src.length > 0 ? download(source.src, path, () => {
-                    console.log('file - ' + path + ' has been downloaded.');
+                        console.log('file - ' + path + ' has been downloaded.');
+                        telegram_bot.sendMessages('file - ' + path + ' has been downloaded.');
                         files.push({
                             name: name, 
                             path: path
@@ -340,7 +342,6 @@ app.route('/release').post((req, res) => {
                         // next track
                         extract(++i);
                     }) : extract(++i);
-                    
                 }
             })(0);
         }
