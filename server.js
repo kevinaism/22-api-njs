@@ -317,7 +317,7 @@ app.route('/release').post((req, res) => {
                 var source = sources[sourceNames[i]];
                 // all done
                 if (!source) {
-                    telegram_bot.sendMessages('All source files are downloaded.');
+                    telegram_bot.sendMessages('All source files are downloaded.',batchId);
                     // next process
                     resolve();
                 }
@@ -332,10 +332,10 @@ app.route('/release').post((req, res) => {
                     // download track's sources
                     source.src = source.src || '';
                     console.log('source.src:'+JSON.stringify(source.src));
-                    telegram_bot.sendMessages('trying to download - "' + path + '".');
+                    telegram_bot.sendMessages('trying to download - "' + path + '".',batchId);
                     source.src.length > 0 ? download(source.src, path, () => {
                         console.log('file - ' + path + ' has been downloaded.');
-                        telegram_bot.sendMessages('file - "' + path + '" has been downloaded.');
+                        telegram_bot.sendMessages('file - "' + path + '" has been downloaded.',batchId);
                         files.push({
                             name: name, 
                             path: path
@@ -353,7 +353,7 @@ app.route('/release').post((req, res) => {
       const selectedPlatforms = data.album.selectedStores;
       var targetPlatform = '';
 
-      telegram_bot.sendMessages('Preparing xml generator for selected Platforms: ' + selectedPlatforms);
+      telegram_bot.sendMessages('Preparing xml generator for selected Platforms: ' + selectedPlatforms,batchId);
     //   console.log(selectedPlatforms);
 
       selectedPlatforms.forEach(platform => {
@@ -362,7 +362,7 @@ app.route('/release').post((req, res) => {
       });
       
      //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
-    telegram_bot.sendMessages('xml generator ready for selected Platforms: ' + Object.keys(xmlWrapperAllPlatform).join(","));
+    telegram_bot.sendMessages('xml generator ready for selected Platforms: ' + Object.keys(xmlWrapperAllPlatform).join(","),batchId);
      console.log()
       
       // var builder = new xml2js.Builder();
