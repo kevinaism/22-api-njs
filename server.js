@@ -80,6 +80,12 @@ app.route('/release').post((req, res) => {
     // get id
     var sourceId = req.body.feed || req.query.feed || ID;
     var isTakeDown = req.body.isTakeDown || req.query.isTakeDown || false;
+    var accountToken = {
+        "yeungpete"         : "rOwn1DzwvDdIaq785WLKqntaEfI0xFP6",
+        "infogoomusic"      : "ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf",
+        "jacqueline.liu"    : "ml6pXZIGmWCzduhDvaVQUAHfPryLIL96",
+        "kuriousgrocery"    : "lkAkCJnEJ51owG7WPpqURhKrkt9LCTV3"
+    }[req.body.token||req.query.token||""] || CONF.OCS.token.id;
     // create batch id
     var batchId = rs.generate({
         length  : 12,
@@ -138,12 +144,7 @@ app.route('/release').post((req, res) => {
         method: 'GET',
         url: CONF.OCS.endpoint + '/feeds?ids=' + sourceId,
         auth: {
-            user: {
-                "yeungpete"         : "rOwn1DzwvDdIaq785WLKqntaEfI0xFP6",
-                "infogoomusic"      : "ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf",
-                "jacqueline.liu"    : "ml6pXZIGmWCzduhDvaVQUAHfPryLIL96",
-                "kuriousgrocery"    : "lkAkCJnEJ51owG7WPpqURhKrkt9LCTV3"
-            }[req.body.token||""] || CONF.OCS.token.id,
+            user: accountToken,
             pass: CONF.OCS.token.key
         }
     }, (error, response, body) => {
@@ -245,7 +246,7 @@ app.route('/release').post((req, res) => {
                             method: 'GET', 
                             url: CONF.OCS.endpoint + '/feeds?ids=' + section.description,
                             auth: {
-                                user: CONF.OCS.token.id,
+                                user: accountToken,
                                 pass: CONF.OCS.token.key
                             }
                         }, (error, response, body) =>{
