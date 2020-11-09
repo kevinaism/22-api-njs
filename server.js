@@ -207,13 +207,14 @@ app.route('/release').post((req, res) => {
                 } else {
                     album[section.title] = info;
                     //console.log('info:'+info);
-                    if (/^(selectedStores|selectedRegions)$/i.test(section.title) && album[section.title] !=null){
-                      album[section.title] = album[section.title] || '';
+                    if (/^(selectedStores|selectedRegions)$/i.test(section.title) && album[section.title] != null) {
+                      album[section.title] = req.body.regions || req.query.regions || album[section.title] || '';
                       album[section.title] = info.split(',');
-                      for (var i in album[section.title]){
-                          Object.keys(TerritoryCode).forEach(function(key) {
-                              if (key == album[section.title][i]) album[section.title][i] = TerritoryCode[key];
-                          })
+                      for (var i in album[section.title]) {
+                        album[section.title][i] = (TerritoryCode[album[section.title][i]] || album[section.title][i]).toUpperCase();
+                          //Object.keys(TerritoryCode).forEach(function(key) {
+                          //    if (key == album[section.title][i]) album[section.title][i] = TerritoryCode[key];
+                          //})
                       }
                     }
                     if (/^artists$/i.test(section.title) && info != null){
