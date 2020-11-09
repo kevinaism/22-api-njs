@@ -80,14 +80,14 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
 
     let upcCode     = data.album.upcCode || '1234567890';
 
-    let imageName   = upcCode+'.'+data.album.artworkSrc.split('.').pop()
+    let imageName   = upcCode+'.'+data.album.artworkSrc.split('.').pop();
     console.log(imageName);
     console.log('releaseASAP:',data.album.releaseASAP);
-    let imageRef    = (data.album.tracks.length+1).toString()
+    let imageRef    = (data.album.tracks.length+1).toString();
     let isrc        = data.album.cartItemId;
     let name        = data.album.title;
-    let regions     = ["HK","TW","MY","SG"] 
-    // let regions     = data.album.selectedRegions || 'Worldwide';
+    //let regions     = ["HK","TW","MY","SG"] 
+    let regions     = data.album.selectedRegions || 'Worldwide';
     let genre       = data.album.primaryGenre;
     let releaseType = data.album.type;
     let releaseDate = data.album.releaseASAP == 'true' ? new Date().toISOString() : data.album.releaseDate;

@@ -138,7 +138,12 @@ app.route('/release').post((req, res) => {
         method: 'GET',
         url: CONF.OCS.endpoint + '/feeds?ids=' + sourceId,
         auth: {
-            user: CONF.OCS.token.id,
+            user: {
+                "yeungpete"         : "rOwn1DzwvDdIaq785WLKqntaEfI0xFP6",
+                "infogoomusic"      : "ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf",
+                "jacqueline.liu"    : "ml6pXZIGmWCzduhDvaVQUAHfPryLIL96",
+                "kuriousgrocery"    : "lkAkCJnEJ51owG7WPpqURhKrkt9LCTV3"
+            }[req.body.token||""] || CONF.OCS.token.id,
             pass: CONF.OCS.token.key
         }
     }, (error, response, body) => {
