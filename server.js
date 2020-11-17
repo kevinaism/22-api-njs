@@ -357,7 +357,7 @@ app.route('/release').post((req, res) => {
     //   console.log(selectedPlatforms);
 
       selectedPlatforms.forEach(platform => {
-        targetPlatform = platform;
+        targetPlatform = platform.toLowerCase();
         try {
             xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
         }
