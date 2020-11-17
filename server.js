@@ -366,9 +366,8 @@ app.route('/release').post((req, res) => {
         }
       });
       
-     //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
-    telegram_bot.sendMessages('xml generator ready for selected Platforms: ' + Object.keys(xmlWrapperAllPlatform).join(","),batchId);
-     console.log()
+      //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
+      telegram_bot.sendMessages('xml generator ready for selected Platforms: ' + Object.keys(xmlWrapperAllPlatform).join(","),batchId);
       
       // var builder = new xml2js.Builder();
       // var xml = builder.buildObject(Wrapper);
@@ -378,83 +377,88 @@ app.route('/release').post((req, res) => {
     }))
     // send tracks to platforms
     .then(() => {
-        console.log('----------Upload files to platforms----------');        
-        //console.log(JSON.stringify(xmlWrapper));
-        telegram_bot.sendMessages('Uploading files to platforms', batchId);
+        console.log('----------Upload files to platforms----------');
         let label   = data.album.copyrightHolder;
         let upcCode = data.album.upcCode || '1234567890';
+        try {
+            //console.log(JSON.stringify(xmlWrapper));
+            telegram_bot.sendMessages('Uploading files to platforms', batchId);
 
-        telegram_bot.sendMessages('kkbox folder name: '+kkboxfoldername, batchId);
-
-        // console.log('kkboxfoldername',kkboxfoldername);
-        // set platforms
-        var platforms = [
-          {
-            id        : 'PADPIDA2010093001B',
-            name      : 'KKBOX Taiwan Co. Ltd.',
-            alias     : 'kkbox',
-            approach  : 'ftp',
-            host      : 'twentytwo.sftp-labels.kkbox.com.tw',
-            username  : 'twentytwo',
-            port      : 22,
-            //remoteDir : `./upload/tt_goomusic`,
-            remoteDir : `./upload/${kkboxfoldername}`,
-            contacts  : []//['wesleyching@kkbox.com','irisszeto@kkbox.com','paintingng@kkbox.com'] // emails
-          },
-          {
-            id        : '',
-            name      : 'MOOV',
-            alias     : 'moov',
-            approach  : 'ftp',
-            host      : '219.76.111.65',
-            username  : 'twentytwo',
-            password  : 'Syf?9RG8',
-            port      : 2222,
-            remoteDir : '.',
-            contacts  : []//['kenny.lk.wong@pccw.com','Jason.CH.Mak@pccw.com','Ben.KS.Ho@pccw.com'] // emails
-          },
-          {
-            id        : '1111111111111', // to be get from joox partner id
-            name      : 'Joox',
-            alias     : 'joox',
-            approach  : 'ftp',
-            host      : '119.28.4.159',
-            username  : 'HK_TwentyTwo',
-            port      : 65100,
-            remoteDir : '.',
-            contacts  : []
-          },
-          {
-            id        : '',
-            name      : 'Rockmobile',
-            alias     : 'itunes',
-            approach  : 'email',
-            /*
-            host      : '219.76.111.65',
-            username  : 'twentytwo',
-            password  : 'Syf?9RG8',
-            port      : 2222,
-            remoteDir : '.',
-            //*/
-            contacts  : [] // emails
-          },
-          {
-            id        : 'PADPIDA2011072101T',
-            name      : 'Spotify',
-            alias     : 'spotify',
-            approach  : 'ftp',
-            host      : 'content-delivery.spotify.com',
-            username  : 'ext-twentytwo',
-            port      : 22,
-            remoteDir : './twentytwo',
-            complete  : "BatchComplete_" + batchId + ".xml",
-            contacts  : [] // emails
-          }
-        ];
-        // telegram_bot.sendMessages('platforms'+JSON.stringify(platforms), batchId);
-        // const selectedPlatforms = ((data.album.selectedStores || {}).info || '').split(/ *, */).map(p => p.toLowerCase());
-        const selectedPlatforms = data.album.selectedStores;
-        telegram_bot.sendMessages('selected Platforms: '+selectedPlatforms, batchId);
+            telegram_bot.sendMessages('kkbox folder name: '+kkboxfoldername, batchId);
+            
+            // console.log('kkboxfoldername',kkboxfoldername);
+            // set platforms
+            var platforms = [
+            {
+                id        : 'PADPIDA2010093001B',
+                name      : 'KKBOX Taiwan Co. Ltd.',
+                alias     : 'kkbox',
+                approach  : 'ftp',
+                host      : 'twentytwo.sftp-labels.kkbox.com.tw',
+                username  : 'twentytwo',
+                port      : 22,
+                //remoteDir : `./upload/tt_goomusic`,
+                remoteDir : `./upload/${kkboxfoldername}`,
+                contacts  : []//['wesleyching@kkbox.com','irisszeto@kkbox.com','paintingng@kkbox.com'] // emails
+            },
+            {
+                id        : '',
+                name      : 'MOOV',
+                alias     : 'moov',
+                approach  : 'ftp',
+                host      : '219.76.111.65',
+                username  : 'twentytwo',
+                password  : 'Syf?9RG8',
+                port      : 2222,
+                remoteDir : '.',
+                contacts  : []//['kenny.lk.wong@pccw.com','Jason.CH.Mak@pccw.com','Ben.KS.Ho@pccw.com'] // emails
+            },
+            {
+                id        : '1111111111111', // to be get from joox partner id
+                name      : 'Joox',
+                alias     : 'joox',
+                approach  : 'ftp',
+                host      : '119.28.4.159',
+                username  : 'HK_TwentyTwo',
+                port      : 65100,
+                remoteDir : '.',
+                contacts  : []
+            },
+            {
+                id        : '',
+                name      : 'Rockmobile',
+                alias     : 'itunes',
+                approach  : 'email',
+                /*
+                host      : '219.76.111.65',
+                username  : 'twentytwo',
+                password  : 'Syf?9RG8',
+                port      : 2222,
+                remoteDir : '.',
+                //*/
+                contacts  : [] // emails
+            },
+            {
+                id        : 'PADPIDA2011072101T',
+                name      : 'Spotify',
+                alias     : 'spotify',
+                approach  : 'ftp',
+                host      : 'content-delivery.spotify.com',
+                username  : 'ext-twentytwo',
+                port      : 22,
+                remoteDir : './twentytwo',
+                complete  : "BatchComplete_" + batchId + ".xml",
+                contacts  : [] // emails
+            }
+            ];
+            // telegram_bot.sendMessages('platforms'+JSON.stringify(platforms), batchId);
+            // const selectedPlatforms = ((data.album.selectedStores || {}).info || '').split(/ *, */).map(p => p.toLowerCase());
+            const selectedPlatforms = data.album.selectedStores;
+            telegram_bot.sendMessages('selected Platforms: '+selectedPlatforms, batchId);
+        }
+        catch(e) {
+            telegram_bot.sendMessages('ERROR - ' + e.message, batchId);
+        }
 
         return promise.all(platforms.filter(platform => selectedPlatforms.indexOf(platform.alias) >= 0).map((platform, pfI) => require('./uploaders/' + platform.alias + '.js')(
           platform,
