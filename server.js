@@ -358,7 +358,12 @@ app.route('/release').post((req, res) => {
 
       selectedPlatforms.forEach(platform => {
         targetPlatform = platform;
-        xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
+        try {
+            xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
+        }
+        catch(e) {
+            telegram_bot.sendMessages('ERROR - ' + e.message, batchId);
+        }
       });
       
      //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
