@@ -290,24 +290,28 @@ app.route('/release').post((req, res) => {
 
     })))
     // ----------------- /get source info ----------------- //
+
+
+
     // got info, gen ddex xml for each track
     .then(() => new promise((resolve, reject) => {
-        console.log('----------Download album data from OCS----------');
+        //console.log('----------Download album data from OCS----------');
         // console.log('data.album.artworkSrc:'+data.album.artworkSrc);
         telegram_bot.sendMessages(data.album.artworkSrc.split('/').pop(),batchId);
         //data.album.artworkSrc = ['test','test22'];
         const sources = Object.assign({}, {
-            artwork:
-            {
+            artwork: {
               src: data.album.artworkSrc
             }
         }, data.album.tracks);
         // get tracks
         const sourceNames = Object.keys(sources);
         let upcCode = data.album.upcCode || '1234567890';
-        console.log('sourceNames:',sourceNames);
+        //console.log('sourceNames:',sourceNames);
         // extract track info
         if (!sourceNames.length) {
+            // no source info
+            telegram_bot.sendMessages("ERROR - no source files.", batchId);
             // next process
             resolve();
         }
@@ -331,10 +335,10 @@ app.route('/release').post((req, res) => {
                     var path = dir + '/batch_' + batchId + '/' + batchId + '/resources/' + name;
                     // download track's sources
                     source.src = source.src || '';
-                    console.log('source.src:'+JSON.stringify(source.src));
+                    //console.log('source.src:'+JSON.stringify(source.src));
                     telegram_bot.sendMessages('trying to download - "' + path + '".',batchId);
                     source.src.length > 0 ? download(source.src, path, () => {
-                        console.log('file - ' + path + ' has been downloaded.');
+                        //console.log('file - ' + path + ' has been downloaded.');
                         telegram_bot.sendMessages('file - "' + path + '" has been downloaded.',batchId);
                         files.push({
                             name: name, 
@@ -347,48 +351,47 @@ app.route('/release').post((req, res) => {
             })(0);
         }
     }))
-    .then(() => new promise((resolve, reject) => {
-      console.log('----------prepare ddex xml----------');
-   
+
+
+
+
+    .then(() => new Promise(resolve => {
+      //console.log('----------prepare ddex xml----------');
       const selectedPlatforms = data.album.selectedStores;
       var targetPlatform = '';
-
-      telegram_bot.sendMessages('Preparing xml generator for selected Platforms: ' + selectedPlatforms,batchId);
-    //   console.log(selectedPlatforms);
-
+      telegram_bot.sendMessages('Preparing xml generator for selected Platforms: ' + selectedPlatforms.join(","), batchId);
       selectedPlatforms.forEach(platform => {
         targetPlatform = platform.toLowerCase();
         try {
-            xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
+            xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(
+                targetPlatform,
+                data,
+                batchId,
+                isTakeDown
+            );
         }
         catch(e) {
             telegram_bot.sendMessages('ERROR - ' + e.message, batchId);
         }
       });
-      
       //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
-      telegram_bot.sendMessages('xml generator ready for selected Platforms: ' + Object.keys(xmlWrapperAllPlatform).join(","),batchId);
-      
-      // var builder = new xml2js.Builder();
-      // var xml = builder.buildObject(Wrapper);
-      //
-      // fs.writeFileSync(dir + '/batch_' + batchId + '/' + batchId + '/' + batchId + '.xml', xml);
+      telegram_bot.sendMessages('xml generator ready for selected Platforms: ' + Object.keys(xmlWrapperAllPlatform).join(","), batchId);
+      // next
       resolve();
     }))
+
+
+
+
+
+
+    
     // send tracks to platforms
     .then(() => {
         console.log('----------Upload files to platforms----------');
         let label   = data.album.copyrightHolder;
         let upcCode = data.album.upcCode || '1234567890';
-        try {
-            //console.log(JSON.stringify(xmlWrapper));
-            telegram_bot.sendMessages('Uploading files to platforms', batchId);
-
-            telegram_bot.sendMessages('kkbox folder name: '+kkboxfoldername, batchId);
-            
-            // console.log('kkboxfoldername',kkboxfoldername);
-            // set platforms
-            var platforms = [
+        var platforms = [
             {
                 id        : 'PADPIDA2010093001B',
                 name      : 'KKBOX Taiwan Co. Ltd.',
@@ -450,16 +453,9 @@ app.route('/release').post((req, res) => {
                 complete  : "BatchComplete_" + batchId + ".xml",
                 contacts  : [] // emails
             }
-            ];
-            // telegram_bot.sendMessages('platforms'+JSON.stringify(platforms), batchId);
-            // const selectedPlatforms = ((data.album.selectedStores || {}).info || '').split(/ *, */).map(p => p.toLowerCase());
-            const selectedPlatforms = data.album.selectedStores;
-            telegram_bot.sendMessages('selected Platforms: '+selectedPlatforms, batchId);
-        }
-        catch(e) {
-            telegram_bot.sendMessages('ERROR - ' + e.message, batchId);
-        }
-
+        ];
+        const selectedPlatforms = data.album.selectedStores;
+        telegram_bot.sendMessages('Uploading files to platforms: ' + selectedPlatforms.join(","), batchId);
         return promise.all(platforms.filter(platform => selectedPlatforms.indexOf(platform.alias) >= 0).map((platform, pfI) => require('./uploaders/' + platform.alias + '.js')(
           platform,
           dir,
@@ -469,7 +465,6 @@ app.route('/release').post((req, res) => {
           JSON.parse(JSON.stringify(xmlWrapperAllPlatform[platform.alias])),
           JSON.parse(JSON.stringify(files))
         )));
-        
     })
     .then(() => new promise((resolve, reject) => {
         console.log('----------Delete tmp dir----------');
