@@ -454,7 +454,7 @@ app.route('/release').post((req, res) => {
                 contacts  : [] // emails
             }
         ];
-        const selectedPlatforms = data.album.selectedStores;
+        const selectedPlatforms = data.album.selectedStores.map(p => p.toLowerCase());
         telegram_bot.sendMessages('Uploading files to platforms: ' + selectedPlatforms.join(","), batchId);
         return promise.all(platforms.filter(platform => selectedPlatforms.indexOf(platform.alias) >= 0).map((platform, pfI) => require('./uploaders/' + platform.alias + '.js')(
           platform,
