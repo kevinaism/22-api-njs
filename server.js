@@ -453,29 +453,44 @@ app.route('/release').post((req, res) => {
                 complete  : "BatchComplete_" + batchId + ".xml",
                 contacts  : [] // emails
             }
-        ];
-        const selectedPlatforms = data.album.selectedStores.map(p => p.toLowerCase());
+        ].reduce((container, platform) => ({
+            ...container,
+            [platform.alias]: plarform
+        }), {});
+        const selectedPlatforms = data.album.selectedStores.filter(p => p && p.length && platforms[p.toLowerCase()]).map(p => p.toLowerCase());
         telegram_bot.sendMessages('Uploading files to platforms: ' + selectedPlatforms.join(","), batchId);
-        return promise.all(platforms.filter(platform => selectedPlatforms.indexOf(platform.alias) >= 0).map((platform, pfI) => require('./uploaders/' + platform.alias + '.js')(
-          platform,
-          dir,
-          batchId,
-          upcCode,
-          //JSON.parse(JSON.stringify(xmlWrapper)),
-          JSON.parse(JSON.stringify(xmlWrapperAllPlatform[platform.alias])),
-          JSON.parse(JSON.stringify(files))
-        )));
+        // upload files
+        return Promise.all(selectedPlatforms.map(platform => {
+            try {
+                require('./uploaders/' + platform + '.js')(
+                    platforms[platform],
+                    dir,
+                    batchId,
+                    upcCode,
+                    JSON.parse(JSON.stringify(xmlWrapperAllPlatform[platform])),
+                    JSON.parse(JSON.stringify(files))
+                );
+            }
+            catch(e) {
+                telegram_bot.sendMessages('ERROR - ' + e.message, batchId);
+            }
+        }));
     })
-    .then(() => new promise((resolve, reject) => {
+
+
+
+    // ----------------- clean up ----------------- //
+    .then(() => {
         console.log('----------Delete tmp dir----------');
         cmd.get('rm -rf ' + dir, delTmpErr => {
-            if (delTmpErr) console.log(delTmpErr);
-
-            telegram_bot.sendMessages('sftp upload success', batchId);
-            console.log('done.');
+            telegram_bot.sendMessages(delTmpErr ? `ERROR - ${delTmpErr.message}` : 'sftp upload success', batchId);
             res.end('done.');
         });
-    }))
+    })
+    // ----------------- /clean up ----------------- //
+
+
+    
     .catch(error => {
         console.log(error);
         res.status(error.code || 400).end(error.messages.join("\n"));
