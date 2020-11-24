@@ -25,7 +25,8 @@
     'Lowland Pianist Limited'       :'tt_lowland_pianist_limited',
     'GDJYB Independent'             :'tt_lose_control_company',
     'Daymaker Creatives'            :'tt_daymaker_creatives', 
-    'Daymaker Creatives '           :'tt_daymaker_creatives' 
+    'Daymaker Creatives '           :'tt_daymaker_creatives' ,
+    'Leading PR and Promotion Limited':'tt_one_cool_music'
 }
 
 module.exports = Object.freeze({
