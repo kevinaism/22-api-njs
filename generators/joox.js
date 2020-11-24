@@ -1,8 +1,9 @@
 
 const rs            = require('randomstring');
 const moment        = require('moment');
+const telegram_bot  = require('../util/telegramBot.js');
 
-module.exports = function(targetPlatform, data, batchId, isTakeDown){
+module.exports = function(targetPlatform, data, batchId, isTakeDown) {
     targetPlatform = 'sample_' + targetPlatform;
     var xmlWrapper = {};
      // for xml generation
@@ -80,19 +81,24 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
 
     let upcCode     = data.album.upcCode || '1234567890';
 
-    let imageName   = upcCode+'.'+data.album.artworkSrc.split('.').pop()
+    let imageName   = upcCode+'.'+data.album.artworkSrc.split('.').pop();
     console.log(imageName);
     console.log('releaseASAP:',data.album.releaseASAP);
-    let imageRef    = (data.album.tracks.length+1).toString()
+    let imageRef    = (data.album.tracks.length+1).toString();
     let isrc        = data.album.cartItemId;
     let name        = data.album.title;
-    let regions     = ["HK","TW","MY","SG"] 
-    // let regions     = data.album.selectedRegions || 'Worldwide';
+    //let regions     = ["HK","TW","MY","SG"] 
+    let regions     = data.album.selectedRegions || 'Worldwide';
     let genre       = data.album.primaryGenre;
     let releaseType = data.album.type;
     let releaseDate = data.album.releaseASAP == 'true' ? new Date().toISOString() : data.album.releaseDate;
     let releaseTime = ((data.album.releaseTime || '').split(':') || []).filter(t => t);
     let artists     = data.album.artists;
+
+
+    telegram_bot.sendMessages(`XML - Basic information ready.`, batchId);
+
+
     
 
     // console.log(imageName);
@@ -110,6 +116,12 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     Image.ImageDetailsByTerritory[0].TechnicalImageDetails[0].TechnicalResourceDetailsReference
     ="T"+imageRef;
     ResourceGroupContentItem.SequenceNumber[0]=imageRef;
+
+    telegram_bot.sendMessages(`XML - Cover image information ready.`, batchId);
+
+
+
+
     AlbumRelease.ReleaseDetailsByTerritory[0].ResourceGroup[0].ResourceGroupContentItem.push(ResourceGroupContentItem);
     AlbumRelease.ReleaseResourceReferenceList[0].ReleaseResourceReference.push(ReleaseResourceReference);
 
@@ -145,6 +157,8 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     }else {
       AlbumRelease.ReleaseType[0]=releaseType;
     }
+
+
 
     // //add release time to release date
     // if (releaseTime.length > 0) {
@@ -194,6 +208,11 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     ReleaseList[0].Release.push(AlbumRelease);
     //set R0 into deal lists
     Deal.ReleaseDeal[0].DealReleaseReference.push("R0");
+
+    telegram_bot.sendMessages(`XML - Release information ready.`, batchId);
+
+
+
 
     for(var key in data.album.tracks) {
         var track = data.album.tracks[key]

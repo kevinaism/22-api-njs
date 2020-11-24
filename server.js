@@ -80,6 +80,12 @@ app.route('/release').post((req, res) => {
     // get id
     var sourceId = req.body.feed || req.query.feed || ID;
     var isTakeDown = req.body.isTakeDown || req.query.isTakeDown || false;
+    var accountToken = {
+        "yeungpete"         : "rOwn1DzwvDdIaq785WLKqntaEfI0xFP6",
+        "infogoomusic"      : "ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf",
+        "jacqueline.liu"    : "ml6pXZIGmWCzduhDvaVQUAHfPryLIL96",
+        "kuriousgrocery"    : "lkAkCJnEJ51owG7WPpqURhKrkt9LCTV3"
+    }[req.body.token||req.query.token||""] || CONF.OCS.token.id;
     // create batch id
     var batchId = rs.generate({
         length  : 12,
@@ -138,7 +144,7 @@ app.route('/release').post((req, res) => {
         method: 'GET',
         url: CONF.OCS.endpoint + '/feeds?ids=' + sourceId,
         auth: {
-            user: CONF.OCS.token.id,
+            user: accountToken,
             pass: CONF.OCS.token.key
         }
     }, (error, response, body) => {
@@ -201,13 +207,14 @@ app.route('/release').post((req, res) => {
                 } else {
                     album[section.title] = info;
                     //console.log('info:'+info);
-                    if (/^(selectedStores|selectedRegions)$/i.test(section.title) && album[section.title] !=null){
-                      album[section.title] = album[section.title] || '';
+                    if (/^(selectedStores|selectedRegions)$/i.test(section.title) && album[section.title] != null) {
+                      album[section.title] = req.body.regions || req.query.regions || album[section.title] || '';
                       album[section.title] = info.split(',');
-                      for (var i in album[section.title]){
-                          Object.keys(TerritoryCode).forEach(function(key) {
-                              if (key == album[section.title][i]) album[section.title][i] = TerritoryCode[key];
-                          })
+                      for (var i in album[section.title]) {
+                        album[section.title][i] = (TerritoryCode[album[section.title][i]] || album[section.title][i]).toUpperCase();
+                          //Object.keys(TerritoryCode).forEach(function(key) {
+                          //    if (key == album[section.title][i]) album[section.title][i] = TerritoryCode[key];
+                          //})
                       }
                     }
                     if (/^artists$/i.test(section.title) && info != null){
@@ -240,7 +247,7 @@ app.route('/release').post((req, res) => {
                             method: 'GET', 
                             url: CONF.OCS.endpoint + '/feeds?ids=' + section.description,
                             auth: {
-                                user: CONF.OCS.token.id,
+                                user: accountToken,
                                 pass: CONF.OCS.token.key
                             }
                         }, (error, response, body) =>{
@@ -283,37 +290,42 @@ app.route('/release').post((req, res) => {
 
     })))
     // ----------------- /get source info ----------------- //
+
+
+
     // got info, gen ddex xml for each track
     .then(() => new promise((resolve, reject) => {
-
-        console.log('----------Download album data from OCS----------');
+        //console.log('----------Download album data from OCS----------');
         // console.log('data.album.artworkSrc:'+data.album.artworkSrc);
         telegram_bot.sendMessages(data.album.artworkSrc.split('/').pop(),batchId);
         //data.album.artworkSrc = ['test','test22'];
         const sources = Object.assign({}, {
-            artwork:
-            {
+            artwork: {
               src: data.album.artworkSrc
             }
         }, data.album.tracks);
         // get tracks
         const sourceNames = Object.keys(sources);
         let upcCode = data.album.upcCode || '1234567890';
-        console.log('sourceNames:',sourceNames);
+        //console.log('sourceNames:',sourceNames);
         // extract track info
         if (!sourceNames.length) {
+            // no source info
+            telegram_bot.sendMessages("ERROR - no source files.", batchId);
             // next process
             resolve();
-        } else {
+        }
+        else {
             (function extract(i) {
                 // get info
                 var source = sources[sourceNames[i]];
-
                 // all done
                 if (!source) {
+                    telegram_bot.sendMessages('All source files are downloaded.',batchId);
                     // next process
                     resolve();
-                } else { 
+                }
+                else {
                     // get source extension
                     //console.log('source:'+JSON.stringify(source));
                     const ext =  source.src == null ? '':source.src.split('.').pop();
@@ -323,9 +335,11 @@ app.route('/release').post((req, res) => {
                     var path = dir + '/batch_' + batchId + '/' + batchId + '/resources/' + name;
                     // download track's sources
                     source.src = source.src || '';
-                    console.log('source.src:'+JSON.stringify(source.src));
+                    //console.log('source.src:'+JSON.stringify(source.src));
+                    telegram_bot.sendMessages('trying to download - "' + path + '".',batchId);
                     source.src.length > 0 ? download(source.src, path, () => {
-                    console.log('file - ' + path + ' has been downloaded.');
+                        //console.log('file - ' + path + ' has been downloaded.');
+                        telegram_bot.sendMessages('file - "' + path + '" has been downloaded.',batchId);
                         files.push({
                             name: name, 
                             path: path
@@ -333,133 +347,150 @@ app.route('/release').post((req, res) => {
                         // next track
                         extract(++i);
                     }) : extract(++i);
-                    
                 }
             })(0);
         }
     }))
-    .then(() => new promise((resolve, reject) => {
-      console.log('----------prepare ddex xml----------');
-   
+
+
+
+
+    .then(() => new Promise(resolve => {
+      //console.log('----------prepare ddex xml----------');
       const selectedPlatforms = data.album.selectedStores;
       var targetPlatform = '';
-    //   console.log(selectedPlatforms);
-
+      telegram_bot.sendMessages('Preparing xml generator for selected Platforms: ' + selectedPlatforms.join(","), batchId);
       selectedPlatforms.forEach(platform => {
-        targetPlatform = platform;
-        xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
+        targetPlatform = platform.toLowerCase();
+        try {
+            xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(
+                targetPlatform,
+                data,
+                batchId,
+                isTakeDown
+            );
+        }
+        catch(e) {
+            telegram_bot.sendMessages('ERROR - ' + e.message, batchId);
+        }
       });
-      
-     //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
-     console.log(xmlWrapperAllPlatform)
-      
-      // var builder = new xml2js.Builder();
-      // var xml = builder.buildObject(Wrapper);
-      //
-      // fs.writeFileSync(dir + '/batch_' + batchId + '/' + batchId + '/' + batchId + '.xml', xml);
+      //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
+      telegram_bot.sendMessages('xml generator ready for selected Platforms: ' + Object.keys(xmlWrapperAllPlatform).join(","), batchId);
+      // next
       resolve();
     }))
+
+
+
+
+
+
+    
     // send tracks to platforms
     .then(() => {
-        console.log('----------Upload files to platforms----------');        
-        //console.log(JSON.stringify(xmlWrapper));
-        telegram_bot.sendMessages('Uploading files to platforms', batchId);
+        console.log('----------Upload files to platforms----------');
         let label   = data.album.copyrightHolder;
         let upcCode = data.album.upcCode || '1234567890';
-
-        telegram_bot.sendMessages('kkbox folder name: '+kkboxfoldername, batchId);
-
-        // console.log('kkboxfoldername',kkboxfoldername);
-        // set platforms
         var platforms = [
-          {
-            id        : 'PADPIDA2010093001B',
-            name      : 'KKBOX Taiwan Co. Ltd.',
-            alias     : 'kkbox',
-            approach  : 'ftp',
-            host      : 'twentytwo.sftp-labels.kkbox.com.tw',
-            username  : 'twentytwo',
-            port      : 22,
-            //remoteDir : `./upload/tt_goomusic`,
-            remoteDir : `./upload/${kkboxfoldername}`,
-            contacts  : []//['wesleyching@kkbox.com','irisszeto@kkbox.com','paintingng@kkbox.com'] // emails
-          },
-          {
-            id        : '',
-            name      : 'MOOV',
-            alias     : 'moov',
-            approach  : 'ftp',
-            host      : '219.76.111.65',
-            username  : 'twentytwo',
-            password  : 'Syf?9RG8',
-            port      : 2222,
-            remoteDir : '.',
-            contacts  : []//['kenny.lk.wong@pccw.com','Jason.CH.Mak@pccw.com','Ben.KS.Ho@pccw.com'] // emails
-          },
-          {
-            id        : '1111111111111', // to be get from joox partner id
-            name      : 'Joox',
-            alias     : 'joox',
-            approach  : 'ftp',
-            host      : '119.28.4.159',
-            username  : 'HK_TwentyTwo',
-            port      : 65100,
-            remoteDir : '.',
-            contacts  : []
-          },
-          {
-            id        : '',
-            name      : 'Rockmobile',
-            alias     : 'itunes',
-            approach  : 'email',
-            /*
-            host      : '219.76.111.65',
-            username  : 'twentytwo',
-            password  : 'Syf?9RG8',
-            port      : 2222,
-            remoteDir : '.',
-            //*/
-            contacts  : [] // emails
-          },
-          {
-            id        : 'PADPIDA2011072101T',
-            name      : 'Spotify',
-            alias     : 'spotify',
-            approach  : 'ftp',
-            host      : 'content-delivery.spotify.com',
-            username  : 'ext-twentytwo',
-            port      : 22,
-            remoteDir : './twentytwo',
-            complete  : "BatchComplete_" + batchId + ".xml",
-            contacts  : [] // emails
-          }
-        ];
-        // telegram_bot.sendMessages('platforms'+JSON.stringify(platforms), batchId);
-        // const selectedPlatforms = ((data.album.selectedStores || {}).info || '').split(/ *, */).map(p => p.toLowerCase());
-        const selectedPlatforms = data.album.selectedStores;
-        telegram_bot.sendMessages('selected Platforms: '+selectedPlatforms, batchId);
-
-        return promise.all(platforms.filter(platform => selectedPlatforms.indexOf(platform.alias) >= 0).map((platform, pfI) => require('./uploaders/' + platform.alias + '.js')(
-          platform,
-          dir,
-          batchId,
-          upcCode,
-          //JSON.parse(JSON.stringify(xmlWrapper)),
-          JSON.parse(JSON.stringify(xmlWrapperAllPlatform[platform.alias])),
-          JSON.parse(JSON.stringify(files))
-        )));
-        
+            {
+                id        : 'PADPIDA2010093001B',
+                name      : 'KKBOX Taiwan Co. Ltd.',
+                alias     : 'kkbox',
+                approach  : 'ftp',
+                host      : 'twentytwo.sftp-labels.kkbox.com.tw',
+                username  : 'twentytwo',
+                port      : 22,
+                //remoteDir : `./upload/tt_goomusic`,
+                remoteDir : `./upload/${kkboxfoldername}`,
+                contacts  : []//['wesleyching@kkbox.com','irisszeto@kkbox.com','paintingng@kkbox.com'] // emails
+            },
+            {
+                id        : '',
+                name      : 'MOOV',
+                alias     : 'moov',
+                approach  : 'ftp',
+                host      : '219.76.111.65',
+                username  : 'twentytwo',
+                password  : 'Syf?9RG8',
+                port      : 2222,
+                remoteDir : '.',
+                contacts  : []//['kenny.lk.wong@pccw.com','Jason.CH.Mak@pccw.com','Ben.KS.Ho@pccw.com'] // emails
+            },
+            {
+                id        : '1111111111111', // to be get from joox partner id
+                name      : 'Joox',
+                alias     : 'joox',
+                approach  : 'ftp',
+                host      : '119.28.4.159',
+                username  : 'HK_TwentyTwo',
+                port      : 65100,
+                remoteDir : '.',
+                contacts  : []
+            },
+            {
+                id        : '',
+                name      : 'Rockmobile',
+                alias     : 'itunes',
+                approach  : 'email',
+                /*
+                host      : '219.76.111.65',
+                username  : 'twentytwo',
+                password  : 'Syf?9RG8',
+                port      : 2222,
+                remoteDir : '.',
+                //*/
+                contacts  : [] // emails
+            },
+            {
+                id        : 'PADPIDA2011072101T',
+                name      : 'Spotify',
+                alias     : 'spotify',
+                approach  : 'ftp',
+                host      : 'content-delivery.spotify.com',
+                username  : 'ext-twentytwo',
+                port      : 22,
+                remoteDir : './twentytwo',
+                complete  : "BatchComplete_" + batchId + ".xml",
+                contacts  : [] // emails
+            }
+        ].reduce((container, platform) => ({
+            ...container,
+            [platform.alias]: plarform
+        }), {});
+        const selectedPlatforms = data.album.selectedStores.filter(p => p && p.length && platforms[p.toLowerCase()]).map(p => p.toLowerCase());
+        telegram_bot.sendMessages('Uploading files to platforms: ' + selectedPlatforms.join(","), batchId);
+        // upload files
+        return Promise.all(selectedPlatforms.map(platform => {
+            try {
+                require('./uploaders/' + platform + '.js')(
+                    platforms[platform],
+                    dir,
+                    batchId,
+                    upcCode,
+                    JSON.parse(JSON.stringify(xmlWrapperAllPlatform[platform])),
+                    JSON.parse(JSON.stringify(files))
+                );
+            }
+            catch(e) {
+                telegram_bot.sendMessages('ERROR - ' + e.message, batchId);
+            }
+        }));
     })
-    .then(() => new promise((resolve, reject) => {
+
+
+
+    // ----------------- clean up ----------------- //
+    .then(() => {
         console.log('----------Delete tmp dir----------');
         cmd.get('rm -rf ' + dir, delTmpErr => {
-            if (delTmpErr) console.log(delTmpErr);
-
-            telegram_bot.sendMessages('sftp upload success', batchId);
-            console.log('done.');
+            telegram_bot.sendMessages(delTmpErr ? `ERROR - ${delTmpErr.message}` : 'sftp upload success', batchId);
             res.end('done.');
         });
-    }))
+    })
+    // ----------------- /clean up ----------------- //
+
+
+    
     .catch(error => {
         console.log(error);
         res.status(error.code || 400).end(error.messages.join("\n"));
