@@ -455,7 +455,7 @@ app.route('/release').post((req, res) => {
             }
         ].reduce((container, platform) => ({
             ...container,
-            [platform.alias]: plarform
+            [platform.alias]: platform
         }), {});
         const selectedPlatforms = data.album.selectedStores.filter(p => p && p.length && platforms[p.toLowerCase()]).map(p => p.toLowerCase());
         telegram_bot.sendMessages('Uploading files to platforms: ' + selectedPlatforms.join(","), batchId);
