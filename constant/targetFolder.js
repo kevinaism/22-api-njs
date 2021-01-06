@@ -26,7 +26,8 @@
     'GDJYB Independent'             :'tt_lose_control_company',
     'Daymaker Creatives'            :'tt_daymaker_creatives', 
     'Daymaker Creatives '           :'tt_daymaker_creatives' ,
-    'Leading PR and Promotion Limited':'tt_one_cool_music'
+    'Leading PR and Promotion Limited':'tt_one_cool_music',
+    '1516 Productions ': 'tt_1516_productions'
 }
 
 module.exports = Object.freeze({
