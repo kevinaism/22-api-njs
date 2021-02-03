@@ -144,7 +144,7 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
       const timezoneOffset = (new Date()).getTimezoneOffset() * 60000;
       releaseTime.push('00');
       var d = new Date(new Date(releaseDate + ' ' + releaseTime.join(':')) - timezoneOffset);
-      releaseDate = d.toISOString();
+      releaseDate = data.album.releaseASAP == 'true' ? releaseDate : d.toISOString();
     }
     console.log('kkbox.releaseDate',releaseDate);
     //set RELEASE DATE

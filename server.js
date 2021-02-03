@@ -27,7 +27,7 @@ const CONF = {
         token               : {
             id  : 'ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf',   // 5 or 9wjB9wJh0T45Y20HftCEQNrkXGIIO1aJ 
                                                         // or rOwn1DzwvDdIaq785WLKqntaEfI0xFP6(yeungpete) 
-                                                        // or çç(Infogoomusic)
+                                                        // or ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf(Infogoomusic)
                                                         // or ml6pXZIGmWCzduhDvaVQUAHfPryLIL96(jacqueline.liu)
                                                         // or lkAkCJnEJ51owG7WPpqURhKrkt9LCTV3(kuriousgrocery)
             key : 'Nv3MnR57fCrJsq2J8mhGxcyEeeCZBpQL'
@@ -288,7 +288,7 @@ app.route('/release').post((req, res) => {
 
         console.log('----------Download album data from OCS----------');
         // console.log('data.album.artworkSrc:'+data.album.artworkSrc);
-        telegram_bot.sendMessages(data.album.artworkSrc.split('/').pop(),batchId);
+        telegram_bot.sendMessages('artworkSrc:'+data.album.artworkSrc.split('/').pop(),batchId);
         //data.album.artworkSrc = ['test','test22'];
         const sources = Object.assign({}, {
             artwork:
@@ -324,6 +324,7 @@ app.route('/release').post((req, res) => {
                     // download track's sources
                     source.src = source.src || '';
                     console.log('source.src:'+JSON.stringify(source.src));
+                    telegram_bot.sendMessages('source.src:'+JSON.stringify(source.src),batchId);
                     source.src.length > 0 ? download(source.src, path, () => {
                     console.log('file - ' + path + ' has been downloaded.');
                     telegram_bot.sendMessages('file - ' + path + ' has been downloaded.',batchId);
