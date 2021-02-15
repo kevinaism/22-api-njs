@@ -25,7 +25,7 @@ const CONF = {
     OCS             : {
         endpoint            : `https://api.oneshop.cloud`,//!/^local$/i.test(process.env.MODE || 'local') ? `https://api.oneshop.cloud` : `http://ec2-13-251-89-201.ap-southeast-1.compute.amazonaws.com`,
         token               : {
-            id  : 'ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf',   // 5 or 9wjB9wJh0T45Y20HftCEQNrkXGIIO1aJ 
+            id  : 'rOwn1DzwvDdIaq785WLKqntaEfI0xFP6',   // 5 or 9wjB9wJh0T45Y20HftCEQNrkXGIIO1aJ 
                                                         // or rOwn1DzwvDdIaq785WLKqntaEfI0xFP6(yeungpete) 
                                                         // or ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf(Infogoomusic)
                                                         // or ml6pXZIGmWCzduhDvaVQUAHfPryLIL96(jacqueline.liu)
@@ -324,10 +324,10 @@ app.route('/release').post((req, res) => {
                     // download track's sources
                     source.src = source.src || '';
                     console.log('source.src:'+JSON.stringify(source.src));
-                    telegram_bot.sendMessages('source.src:'+JSON.stringify(source.src),batchId);
+
                     source.src.length > 0 ? download(source.src, path, () => {
                     console.log('file - ' + path + ' has been downloaded.');
-                    telegram_bot.sendMessages('file - ' + path + ' has been downloaded.',batchId);
+                    telegram_bot.sendMessages('file - ' + path.split('/').pop() + ' has been downloaded.',batchId);
                         files.push({
                             name: name, 
                             path: path
@@ -440,7 +440,6 @@ app.route('/release').post((req, res) => {
         // const selectedPlatforms = ((data.album.selectedStores || {}).info || '').split(/ *, */).map(p => p.toLowerCase());
         const selectedPlatforms = data.album.selectedStores;
         telegram_bot.sendMessages('selected Platforms: '+selectedPlatforms, batchId);
-
         return promise.all(platforms.filter(platform => selectedPlatforms.indexOf(platform.alias) >= 0).map((platform, pfI) => require('./uploaders/' + platform.alias + '.js')(
           platform,
           dir,
