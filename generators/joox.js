@@ -127,7 +127,7 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown) {
 
     //set ISRC
     //AlbumRelease.ReleaseId[0].ISRC[0]["_"]=upcCode;
-    AlbumRelease.ReleaseId[0].UPC[0]=upcCode;
+    AlbumRelease.ReleaseId[0].ICPN[0]=upcCode;
     AlbumRelease.ReleaseId[0].ISRC[0]=upcCode;
     //set TITLE
     AlbumRelease.ReferenceTitle[0].TitleText[0]=name;
@@ -256,7 +256,7 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown) {
         let conductors    = track.conductors;
         let orchestra     = track.orchestra;
         //set UPC
-        TrackRelease.ReleaseId[0].UPC[0]=upcCode;
+        TrackRelease.ReleaseId[0].ICPN[0]=upcCode;
         //set ISRC
         SoundRecording.SoundRecordingId[0].ISRC[0]=TrackRelease.ReleaseId[0].ISRC[0]=isrc;
         // set pline

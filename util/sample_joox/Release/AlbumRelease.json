@@ -4,7 +4,7 @@
   },
   "ReleaseId": [
     {
-      "UPC":["{{UPC}}"],
+      "ICPN":["{{UPC}}"],
       "ISRC": ["{{ICPN}}"]
     }
   ],
