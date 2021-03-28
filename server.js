@@ -368,6 +368,7 @@ app.route('/release').post((req, res) => {
         telegram_bot.sendMessages('Uploading files to platforms', batchId);
         let label   = data.album.copyrightHolder;
         let upcCode = data.album.upcCode || '1234567890';
+        kkboxfoldername = 'TT';
 
         telegram_bot.sendMessages('kkbox folder name: '+kkboxfoldername, batchId);
 
@@ -383,7 +384,7 @@ app.route('/release').post((req, res) => {
             username  : 'twentytwo',
             port      : 22,
             //remoteDir : `./upload/tt_goomusic`,
-            remoteDir : `./upload/${kkboxfoldername}`,
+            remoteDir : `./upload/tt`,
             contacts  : []//['wesleyching@kkbox.com','irisszeto@kkbox.com','paintingng@kkbox.com'] // emails
           },
           {
