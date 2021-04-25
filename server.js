@@ -25,7 +25,7 @@ const CONF = {
     OCS             : {
         endpoint            : `https://api.oneshop.cloud`,//!/^local$/i.test(process.env.MODE || 'local') ? `https://api.oneshop.cloud` : `http://ec2-13-251-89-201.ap-southeast-1.compute.amazonaws.com`,
         token               : {
-            id  : 'ml6pXZIGmWCzduhDvaVQUAHfPryLIL96',   // 5 or 9wjB9wJh0T45Y20HftCEQNrkXGIIO1aJ 
+            id  : 'ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf',   // 5 or 9wjB9wJh0T45Y20HftCEQNrkXGIIO1aJ 
                                                         // or rOwn1DzwvDdIaq785WLKqntaEfI0xFP6(yeungpete) 
                                                         // or ueC9SIrhJLtizHvWKtYjdMpH8lOB8pjf(Infogoomusic)
                                                         // or ml6pXZIGmWCzduhDvaVQUAHfPryLIL96(jacqueline.liu)
