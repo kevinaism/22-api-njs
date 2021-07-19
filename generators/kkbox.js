@@ -85,8 +85,8 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
     console.log(imageName);
     let isrc        = data.album.cartItemId;
     let name        = data.album.title;
-     let regions     = ["HK","TW","MY","SG"]
-    // let regions     = data.album.selectedRegions|| 'Worldwide';
+    //let regions     = ["HK","TW","MY","SG"]
+    let regions     = data.album.selectedRegions|| 'Worldwide';
     let genre       = data.album.primaryGenre;
     let releaseType = data.album.type;
     let releaseDate = data.album.releaseASAP == 'true' ? new Date().toISOString() : data.album.releaseDate;
