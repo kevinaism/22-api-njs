@@ -169,8 +169,8 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown) {
 
     //set RELEASE DATE
     AlbumRelease.ReleaseDetailsByTerritory[0].ReleaseDate[0]
-    =Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].StartDate[0]
-    =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].StartDate[0]
+    =Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0][isTakeDown ? 'EndDate' : 'StartDate'][0]
+    =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0][isTakeDown ? 'EndDate' : 'StartDate'][0]
     =releaseDate.split(/T/).shift();
 
 
@@ -415,7 +415,7 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown) {
         // set duration
         SoundRecording.Duration=duration;
 
-        SoundRecording.SoundRecordingDetailsByTerritory[0].RightsController.DelegatedUsageRights.PeriodOfRightsDelegation.StartDate = data.album.releaseDate;
+        SoundRecording.SoundRecordingDetailsByTerritory[0].RightsController.DelegatedUsageRights.PeriodOfRightsDelegation[isTakeDown ? 'EndDate' : 'StartDate'] = data.album.releaseDate;
 
         Resource.SoundRecording.push(SoundRecording);
         //console.log(Deal.ReleaseDeal[0].DealReleaseReference);

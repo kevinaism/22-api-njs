@@ -144,8 +144,8 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
 
     //set RELEASE DATE
     AlbumRelease.ReleaseDetailsByTerritory[0].ReleaseDate[0]
-    =Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].StartDate[0]
-    =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].StartDate[0]
+    =Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0][isTakeDown ? 'EndDate' : 'StartDate'][0]
+    =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0][isTakeDown ? 'EndDate' : 'StartDate'][0]
     =releaseDate;
 
 
