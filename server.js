@@ -384,7 +384,7 @@ app.route('/release').post((req, res) => {
             username  : 'twentytwo',
             port      : 22,
             //remoteDir : `./upload/tt_goomusic`,
-            remoteDir : `./upload/tt_daymaker_creatives`,
+            remoteDir : `./upload/tt`,
             contacts  : []//['wesleyching@kkbox.com','irisszeto@kkbox.com','paintingng@kkbox.com'] // emails
           },
           {
