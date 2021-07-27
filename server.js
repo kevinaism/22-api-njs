@@ -354,7 +354,7 @@ app.route('/release').post((req, res) => {
           xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
         });
       } catch(e) {
-        telegram_bot.sendMessages(JSON.stringify(e, null, 4), batchId);
+        telegram_bot.sendMessages(JSON.stringify(e.stack, null, 4), batchId);
       }
       
      //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
