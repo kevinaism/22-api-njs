@@ -348,10 +348,14 @@ app.route('/release').post((req, res) => {
     //   console.log(selectedPlatforms);
       telegram_bot.sendMessages('preparing ddex xml: ' + selectedPlatforms.join(',') + '.', batchId);
 
-      selectedPlatforms.forEach(platform => {
-        targetPlatform = platform;
-        xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
-      });
+      try {
+        selectedPlatforms.forEach(platform => {
+          targetPlatform = platform;
+          xmlWrapperAllPlatform[targetPlatform] = xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
+        });
+      } catch(e) {
+        telegram_bot.sendMessages(e.message, batchId);
+      }
       
      //   xmlWrapper = require(`./generators/${targetPlatform}.js`)(targetPlatform, data, batchId, isTakeDown);
      console.log(xmlWrapperAllPlatform)
