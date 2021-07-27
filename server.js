@@ -327,7 +327,7 @@ app.route('/release').post((req, res) => {
 
                     source.src.length > 0 ? download(source.src, path, () => {
                     console.log('file - ' + path + ' has been downloaded.');
-                    telegram_bot.sendMessages('file - ' + path.split('/').pop() + ' has been downloaded.',batchId);
+                    telegram_bot.sendMessages('file(' + (i + 1) + '/' + sourceNames.length + ') - ' + path.split('/').pop() + ' has been downloaded.',batchId);
                         files.push({
                             name: name, 
                             path: path
@@ -346,6 +346,7 @@ app.route('/release').post((req, res) => {
       const selectedPlatforms = data.album.selectedStores;
       var targetPlatform = '';
     //   console.log(selectedPlatforms);
+      telegram_bot.sendMessages('preparing ddex xml: ' + selectedPlatforms.join(',') + '.', batchId);
 
       selectedPlatforms.forEach(platform => {
         targetPlatform = platform;
