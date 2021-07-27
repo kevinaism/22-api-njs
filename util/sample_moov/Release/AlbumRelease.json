@@ -113,6 +113,9 @@
       ],
       "ReleaseDate": [
         "{{RELEASE_DATE}}"
+      ],
+      "OriginalReleaseDate": [
+        "{{RELEASE_DATE}}"
       ]
     }
   ],
