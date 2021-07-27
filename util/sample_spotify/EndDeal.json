@@ -22,6 +22,9 @@
               ],
               "ValidityPeriod": [
                 {
+                  "StartDate": [
+                    "{{RELEASE_DATE}}"
+                  ],
                   "EndDate": [
                     "{{RELEASE_DATE}}"
                   ]
@@ -49,6 +52,9 @@
               ],
               "ValidityPeriod": [
                 {
+                  "StartDate": [
+                    "{{RELEASE_DATE}}"
+                  ],
                   "EndDate": [
                     "{{RELEASE_DATE}}"
                   ]
