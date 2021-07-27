@@ -174,11 +174,12 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown) {
     console.log('isTakeDown:'+isTakeDown);
     if(isTakeDown){
       var endDate = new Date().toISOString();
-      
+      delete Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].StartDate;
       Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].EndDate[0]
       =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].EndDate[0]
       = endDate.split(/T/).shift();
     }else{
+      delete Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].EndDate;
       Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].StartDate[0]
       =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].StartDate[0]
       = releaseDate.split(/T/).shift();
