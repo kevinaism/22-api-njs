@@ -157,12 +157,12 @@ module.exports = function(targetPlatform, data, batchId, isTakeDown){
       var endDate = new Date().toISOString();
       delete Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].StartDate;
       delete Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].StartDate;
-      Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].EndDate[0]
-      =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].EndDate[0]
+      Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].EndDateTime[0]
+      =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].EndDateTime[0]
       = endDate;
     }else{
-      delete Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].EndDate;
-      delete Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].EndDate;
+      delete Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].EndDateTime;
+      delete Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].EndDateTime;
       Deal.ReleaseDeal[0].Deal[0].DealTerms[0].ValidityPeriod[0].StartDate[0]
       =Deal.ReleaseDeal[0].Deal[1].DealTerms[0].ValidityPeriod[0].StartDate[0]
       = releaseDate;
