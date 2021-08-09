@@ -314,7 +314,6 @@ app.route('/release').post((req, res) => {
                     // next process
                     resolve();
                 } else { 
-                    
                     // get source extension
                     //console.log('source:'+JSON.stringify(source));
                     const ext =  source.src == null ? '':source.src.split('.').pop();
