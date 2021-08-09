@@ -299,7 +299,7 @@ app.route('/release').post((req, res) => {
         // get tracks
         const sourceNames = Object.keys(sources);
         let upcCode = data.album.upcCode || '1234567890';
-        console.log('sourceNames:',sourceNames);
+        console.log('source names:',sourceNames);
         // extract track info
         if (!sourceNames.length) {
             // next process
