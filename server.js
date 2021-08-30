@@ -17,7 +17,6 @@ const ncp           = require('ncp').ncp;
 var Client          = require('ssh2').Client;
 const constant      = require('./constant/targetFolder.js')
 const telegram_bot  = require('./util/telegramBot.js')
-
 //pending -> live
 const ID = '';
 const CONF = {
