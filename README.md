@@ -5,7 +5,7 @@ This sample code helps get you started with a simple Express web service
 deployed by AWS CodeDeploy and AWS CloudFormation to an Amazon EC2 instance.
 
 What's Here
-----------------
+-----------
 
 This sample includes:
 
