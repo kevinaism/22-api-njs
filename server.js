@@ -146,6 +146,7 @@ app.route('/release').post((req, res) => {
         telegram_bot.sendMessages('Get album data from OCS',batchId);
         console.log('----------Get album data from OCS----------');
        
+        
         //console.log(response);
         //console.log(body);
         // parse result
