@@ -21,7 +21,6 @@ const telegram_bot  = require('./util/telegramBot.js')
 //pending -> live
 const ID = '';
 const CONF = {
-    
 
     encryptionKey   : 'Nqk3fS4ctwTF7EYMoArVbgykKleKeIkW',
     OCS             : {
