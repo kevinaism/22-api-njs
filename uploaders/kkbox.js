@@ -88,7 +88,6 @@ module.exports = function(platform, dir, batchId, upc, xmlWrapper, files) {
                     remote: platform.remoteDir + '/' + batchId + '/BatchComplete_' + batchId + '.complete'
                 });
                 console.log(files);
-      
 
                 // ssh2
                 var conn = new Client();
