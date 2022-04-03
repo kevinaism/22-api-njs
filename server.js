@@ -87,10 +87,10 @@ app.route('/release').post((req, res) => {
         charset : 'numeric'
     });
     batchId = Date.now().toString();
-    telegram_bot.sendMessages('start',batchId);
-
+    telegram_bot.sendMessages('start || istakeDown:'+isTakeDown,batchId);
+    console.log('istakeDown:'req.body.isTakeDown);
     /*
-    var batchId = moment().format("YYYY") + (function padding1(num, length) {
+    var batchId = moment().format("YYYY")c + (function padding1(num, length) {
         for(var len = (num + "").length; len < length; len = num.length) { num = "0" + num; } return num;
     })(parseInt(sourceId), 8);
     */
