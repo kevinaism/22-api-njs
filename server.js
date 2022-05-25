@@ -22,6 +22,7 @@ const telegram_bot  = require('./util/telegramBot.js')
 const ID = '';
 const CONF = {
 
+    
     encryptionKey   : 'Nqk3fS4ctwTF7EYMoArVbgykKleKeIkW',
     OCS             : {
         endpoint            : `https://api.oneshop.cloud`,//!/^local$/i.test(process.env.MODE || 'local') ? `https://api.oneshop.cloud` : `http://ec2-13-251-89-201.ap-southeast-1.compute.amazonaws.com`,
