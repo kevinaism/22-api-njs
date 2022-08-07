@@ -40,7 +40,6 @@ const CONF = {
         region              : `ap-southeast-1`
     }
 };
-//
 
 const ADMINS = [
     'lucas@twentytwomusic.com',
