@@ -47,7 +47,6 @@ const ADMINS = [
     !/^local$/i.test(process.env.MODE || 'local') ? 'pete@twentytwomusic.com' : null,
     !/^local$/i.test(process.env.MODE || 'local') ? 'hin_613@hotmail.com' : null
 ].filter(a => a);
-
 // create a proxy
 const s3 = new aws.S3(CONF.S3);
 
