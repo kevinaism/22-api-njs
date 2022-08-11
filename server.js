@@ -50,7 +50,6 @@ const ADMINS = [
 
 // create a proxy
 const s3 = new aws.S3(CONF.S3);
-
 // -------------- helpers -------------- //
 var download = function(url, dest, cb) {
     var file = fs.createWriteStream(dest);
