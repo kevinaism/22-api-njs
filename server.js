@@ -15,7 +15,6 @@ const zip           = require('zip-folder');
 const ncp           = require('ncp').ncp;
 const constant      = require('./constant/targetFolder.js')
 const telegram_bot  = require('./util/telegramBot.js')
-
 var Client          = require('ssh2').Client;
 
 //pending -> live
