@@ -13,11 +13,11 @@ const xml2js        = require('xml2js');
 const moment        = require('moment');
 const zip           = require('zip-folder');
 const ncp           = require('ncp').ncp;
-
-
-var Client          = require('ssh2').Client;
 const constant      = require('./constant/targetFolder.js')
 const telegram_bot  = require('./util/telegramBot.js')
+
+var Client          = require('ssh2').Client;
+
 //pending -> live
 const ID = '';
 const CONF = {
